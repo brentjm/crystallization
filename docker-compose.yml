@@ -1,0 +1,144 @@
+version: '3.5'
+services:
+
+  postgres:
+    build: ./postgres
+    image: postgres-custom
+    container_name: postgres
+    volumes:
+      - type: volume
+        source: postgres-data
+        target: /var/lib/postgresql/data
+    networks:
+      - app
+#    ports:
+#      - "5432:5432"
+    restart: unless-stopped
+
+  influx:
+    build: ./influx
+    image: influxdb-custom
+    container_name: influxdb
+    volumes: 
+      - type: volume
+        source: influxdb-data
+        target: /var/lib/influxdb
+    networks:
+      - app
+#    ports:
+#      - "8086:8086"
+    restart: unless-stopped
+
+  mosquitto:
+    build: ./mosquitto
+    image: mosquitto-custom
+    container_name: mosquitto
+    volumes:
+      - type: volume
+        source: mosquitto_log
+        target: /mosquitto/log
+        volume:
+          nocopy: true
+      - type: volume
+        source: mosquitto_data
+        target: /mosquitto/data
+        volume:
+          nocopy: true
+    networks:
+      - app
+    ports:
+      - "9001:9001"
+      - "1883:1883"
+    restart: unless-stopped
+
+  node-red:
+    build: ./node-red
+    image: node-red-custom
+    container_name: node-red
+    volumes:
+      - type: volume
+        source: node-red-data
+        target: /data
+    networks:
+      - app      
+#    ports:
+#        - "1880:1880"
+    depends_on:
+      - mosquitto
+      - postgres
+      - influx
+    restart: unless-stopped
+
+  grafana:
+    build: ./grafana
+    image: grafana-custom
+    container_name: grafana
+    volumes:
+      - type: volume
+        source: grafana-data
+        target: /var/lib/grafana
+    networks:
+      - app      
+#    ports:
+#      - "3000:3000"
+    depends_on:
+      - postgres
+      - influx
+    restart: unless-stopped
+
+  nginx:
+    build: ./nginx
+    image: nginx-custom
+    container_name: nginx
+    networks:
+      - app
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - node-red
+      - flask
+    restart: always
+
+  flask:
+    build: ./flask
+    image: flask-custom
+    container_name: flask
+    networks:
+      - app
+#    ports:
+#      - "8000:8000"
+    depends_on:
+      - postgres
+      - influx
+    restart: unless-stopped
+
+  jupyter:
+    build: ./jupyter
+    image: jupyter-notebook
+    container_name: jupyter
+#    volumes:
+#      - type: volume
+#        source: jupyter-data
+#        target: 
+    networks:
+      - app
+    ports:
+      - "8888:8888"
+    restart: unless-stopped
+
+volumes:
+  node-red-data:
+  postgres-data:
+  influxdb-data:
+  mosquitto_log:
+  mosquitto_data:
+  grafana-data:
+  jupyter-data:
+
+networks:
+  app:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.19.0.1/27
