@@ -1,5 +1,4 @@
-# Docker containers to automate laboratory equipment - specifically for a
-#crystallization setup. 
+# Docker containers to automate laboratory equipment - specifically for a crystallization setup. 
 Builds Docker containers (Mosquitto, Node-RED, PostgreSQL, InfluxDB, Grafana,
 Jupyter) and configures them for a laboratory crystallization setup.
 
