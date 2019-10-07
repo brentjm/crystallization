@@ -36,11 +36,10 @@ class ProcessMap extends Component {
   }
 
   getElements = () => {
-    let svg = document.getElementById("svg8");
+    let svg = document.getElementById("crystallization");
     for (let group in groups) {
       groups[group].forEach((x) => {
         this[x] = svg.querySelector('[id^="' + x + '"]');
-        console.log(this[x]);
       });
     }
   };
@@ -49,7 +48,9 @@ class ProcessMap extends Component {
 
     // PMPs
     for (let group in groups) {
+      console.log(group);
       groups[group].forEach((element) => {
+        console.log(element);
         this[element].style.stroke="red";
         this[element].style.strokeWidth="0.7";
         this[element].childNodes.forEach((x) => {
@@ -66,7 +67,8 @@ class ProcessMap extends Component {
     return (
       <div className={classes.container}>
 
-<svg height="760" id="svg8" width="1080" version="1.1" viewBox="0 0 285.75 201.08334" xmlns="http://www.w3.org/2000/svg">
+
+<svg height="760" id="crystallization" width="1080" version="1.1" viewBox="0 0 285.75 201.08334" xmlns="http://www.w3.org/2000/svg">
 	<defs id="defs2">
 		<linearGradient id="steal">
 			<stop id="stop1173" style={{"stopColor":"#ffffff","stopOpacity":"1"}} offset="0"/>
@@ -97,11 +99,11 @@ class ProcessMap extends Component {
 		<linearGradient id="linearGradient1272-4-6" gradientTransform="matrix(0.28303714,0,0,0.13417638,-1.7623707,97.166177)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
 		<linearGradient id="linearGradient1272-9" gradientTransform="matrix(0.28261624,0,0,1.5935766,79.338726,-361.68343)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
 		<radialGradient id="radialGradient1394-8-8" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.74376345,-0.03028719,0.03329679,0.74333763,16.854219,72.382932)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7" gradientTransform="matrix(0.28169198,0,0,0.18089251,118.82542,148.39185)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-3" gradientTransform="matrix(0.28169198,0,0,0.18089251,68.153531,148.16832)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-3-9" gradientTransform="matrix(0.28085648,0,0,0.54085963,125.04135,-227.54296)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<radialGradient id="radialGradient1394-8-1-7" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.74376345,-0.03028719,0.03329679,0.74333763,75.699879,2.7320956)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
-		<radialGradient id="radialGradient1394-8-1-0" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.74376345,-0.03028719,0.03329679,0.74333763,75.468385,-47.804911)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7" gradientTransform="matrix(0.26924314,0,0,0.18614163,108.23896,158.65919)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-3" gradientTransform="matrix(0.26878245,0,0,0.36753825,59.880723,137.27515)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-3-9" gradientTransform="matrix(0.28900635,0,0,0.51695736,134.6311,-212.15193)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<radialGradient id="radialGradient1394-8-1-7" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,83.857848,7.9465548)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
+		<radialGradient id="radialGradient1394-8-1-0" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,83.619636,-40.357064)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
 		<radialGradient id="radialGradient1044-8-5-3-7" cx="53.988441" cy="130.89197" fx="53.988441" fy="130.89197" gradientTransform="matrix(1.0914026,-0.01402807,0.01116904,0.34840914,25.921477,167.20603)" gradientUnits="userSpaceOnUse" r="31.637804" xlinkHref="#glass"/>
 		<radialGradient id="radialGradient1044-0-2-3" cx="53.988441" cy="130.89197" fx="53.988441" fy="130.89197" gradientTransform="matrix(0.71486016,0.00342069,-0.00129611,0.1078,47.781548,150.92732)" gradientUnits="userSpaceOnUse" r="31.637804" xlinkHref="#glass"/>
 		<linearGradient id="linearGradient2548" gradientTransform="matrix(0.75170943,0,0,0.74244933,-53.526139,80.74127)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="185.11778" x2="231.02084" y1="145.19087" y2="145.1909" xlinkHref="#glass"/>
@@ -194,38 +196,38 @@ class ProcessMap extends Component {
 		<linearGradient id="linearGradient2026" gradientTransform="matrix(0.37145112,0,0,0.05033792,80.839653,-65.452911)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
 		<linearGradient id="linearGradient2028" gradientTransform="matrix(0.56361435,0,0,0.03983224,49.732061,-59.872838)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
 		<linearGradient id="linearGradient2030" gradientTransform="matrix(0.75170943,0,0,0.74244933,-53.526139,80.74127)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="185.11778" x2="231.02084" y1="145.19087" y2="145.1909" xlinkHref="#glass"/>
-		<linearGradient id="linearGradient1272-8-9-7-9" gradientTransform="matrix(0.28169198,0,0,0.18089251,118.82542,148.39185)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-3-5" gradientTransform="matrix(0.28169198,0,0,0.18089251,68.153531,148.16832)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-3-9-1" gradientTransform="matrix(0.28085648,0,0,0.54085963,125.04135,-227.54296)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<radialGradient id="radialGradient1394-8-1-7-0" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.74376345,-0.03028719,0.03329679,0.74333763,75.699879,2.7320956)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
-		<radialGradient id="radialGradient1394-8-1-0-3" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.74376345,-0.03028719,0.03329679,0.74333763,75.468385,-47.804911)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-9-7" gradientTransform="matrix(0.26924314,0,0,0.18614163,225.15756,159.77475)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-3-5-9" gradientTransform="matrix(0.26924314,0,0,0.18614163,192.76118,159.812)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<linearGradient id="linearGradient1272-8-9-7-3-9-1-7" gradientTransform="matrix(0.28933534,0,0,0.35822758,135.6936,-310.55944)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
-		<radialGradient id="radialGradient1394-8-1-7-0-5" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,85.24068,-125.00821)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
-		<radialGradient id="radialGradient1394-8-1-0-3-9" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,84.735199,-157.27566)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-9" gradientTransform="matrix(0.26924314,0,0,0.18614163,176.24724,158.70567)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-3-5" gradientTransform="matrix(0.26877631,0,0,0.37037268,127.89,136.99108)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-3-9-1" gradientTransform="matrix(0.28900635,0,0,0.51695736,134.67759,-280.16021)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<radialGradient id="radialGradient1394-8-1-7-0" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,83.904332,-60.06173)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
+		<radialGradient id="radialGradient1394-8-1-0-3" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,83.66612,-108.36535)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-9-7" gradientTransform="matrix(0.26924314,0,0,0.18614163,224.62839,158.71642)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-3-5-9" gradientTransform="matrix(0.26878245,0,0,0.36753825,192.30632,137.59966)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<linearGradient id="linearGradient1272-8-9-7-3-9-1-7" gradientTransform="matrix(0.28933534,0,0,0.35822758,134.63527,-310.03027)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="161.41066" x2="167.97995" y1="163.76614" y2="163.76614" xlinkHref="#steal"/>
+		<radialGradient id="radialGradient1394-8-1-7-0-5" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,84.182347,-124.47904)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
+		<radialGradient id="radialGradient1394-8-1-0-3-9" cx="134.11076" cy="-150.99216" fx="134.11076" fy="-150.99216" gradientTransform="matrix(0.7653459,-0.0289487,0.03426299,0.71048723,83.676866,-156.74649)" gradientUnits="userSpaceOnUse" r="3.9301419" spreadMethod="reflect" xlinkHref="#steal"/>
 	</defs>
 	<g id="process" transform="translate(0,-95.91665)">
-		<g id="LN_3-S" transform="translate(-0.52916667,-1.0583333)">
-			<rect height="17.548052" id="rect1081-8-4-3-7-6-9-3-8-8" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-9-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01119344","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.6427233" ry="0.13816881" x="267.26425" y="181.48444"/>
-			<rect height="17.548052" id="rect1081-8-4-3-7-6-9-3-7-86-5" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-5-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01119344","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.6427238" ry="0.13816881" x="234.86789" y="181.52168"/>
-			<rect height="33.771038" id="rect1081-8-4-3-7-6-9-3-7-8-0-3" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-9-1-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01609718","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.8399367" ry="0.2659044" transform="rotate(90)" x="180.94254" y="-268.77927"/>
-			<rect height="3.7176752" id="rect1081-8-4-32-8-19-9-4-3" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-7-0-5)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="180.58525" y="-238.02754"/>
-			<rect height="3.7176752" id="rect1081-8-4-32-8-19-8-6-8" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-0-3-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="180.08035" y="-270.29498"/>
+		<g id="LN_3-S">
+			<rect height="17.548052" id="rect1081-8-4-3-7-6-9-3-8-8" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-9-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01119344","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.6427233" ry="0.13816881" x="266.73508" y="180.4261"/>
+			<rect height="34.648781" id="rect1081-8-4-3-7-6-9-3-7-86-5" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-5-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01571525","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.638202" ry="0.27281553" x="234.34099" y="180.46561"/>
+			<rect height="33.771038" id="rect1081-8-4-3-7-6-9-3-7-8-0-3" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-9-1-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01609718","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.8399367" ry="0.2659044" transform="rotate(90)" x="179.8842" y="-268.25009"/>
+			<rect height="3.7176752" id="rect1081-8-4-32-8-19-9-4-3" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-7-0-5)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="179.52692" y="-237.49838"/>
+			<rect height="3.7176752" id="rect1081-8-4-32-8-19-8-6-8" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-0-3-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="179.02202" y="-269.76581"/>
 		</g>
-		<g id="LN_2-3" transform="matrix(0.95580689,0,0,1.0290179,62.673086,6.0078012)">
-			<rect height="17.053204" id="rect1081-8-4-3-7-6-9-3-8" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.0112867","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.7649136" ry="0.1342725" x="162.87898" y="169.48933"/>
-			<rect height="17.053204" id="rect1081-8-4-3-7-6-9-3-7-86" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-5)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.0112867","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.764914" ry="0.1342725" x="112.2071" y="169.26579"/>
-			<rect height="50.988232" id="rect1081-8-4-3-7-6-9-3-7-8-0" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-9-1)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.0194874","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.7567134" ry="0.40146813" transform="rotate(90)" x="168.96428" y="-164.46236"/>
-			<rect height="3.8895674" id="rect1081-8-4-32-8-19-9-4" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-7-0)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00658419","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.1253071" ry="0.030625438" transform="rotate(90)" x="168.35576" y="-115.51285"/>
-			<rect height="3.8895674" id="rect1081-8-4-32-8-19-8-6" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-0-3)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00658419","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.1253071" ry="0.030625438" transform="rotate(90)" x="168.12485" y="-166.04984"/>
+		<g id="LN_2-3">
+			<rect height="17.548052" id="rect1081-8-4-3-7-6-9-3-8" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01119344","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.6427233" ry="0.13816881" x="218.35394" y="180.41536"/>
+			<rect height="34.915989" id="rect1081-8-4-3-7-6-9-3-7-86" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-5)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01577555","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.6381416" ry="0.27491945" x="169.92369" y="180.18762"/>
+			<rect height="48.734901" id="rect1081-8-4-3-7-6-9-3-7-8-0" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-9-1)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01932638","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.8367074" ry="0.383726" transform="rotate(90)" x="179.87508" y="-219.86734"/>
+			<rect height="3.7176752" id="rect1081-8-4-32-8-19-9-4" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-7-0)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="179.24889" y="-173.08105"/>
+			<rect height="3.7176752" id="rect1081-8-4-32-8-19-8-6" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-0-3)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="179.01128" y="-221.38466"/>
 		</g>
-		<g id="LN_1-2" transform="matrix(0.95580689,0,0,1.0290179,-5.335199,5.9613171)">
-			<rect height="17.053204" id="rect1081-8-4-3-7-6-9-3" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.0112867","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.7649136" ry="0.1342725" x="162.87898" y="169.48933"/>
-			<rect height="17.053204" id="rect1081-8-4-3-7-6-9-3-7" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.0112867","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.764914" ry="0.1342725" x="112.2071" y="169.26579"/>
-			<rect height="50.988232" id="rect1081-8-4-3-7-6-9-3-7-8" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.0194874","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.7567134" ry="0.40146813" transform="rotate(90)" x="168.96428" y="-164.46236"/>
-			<rect height="3.8895674" id="rect1081-8-4-32-8-19-9" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00658419","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.1253071" ry="0.030625438" transform="rotate(90)" x="168.35576" y="-115.51285"/>
-			<rect height="3.8895674" id="rect1081-8-4-32-8-19-8" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-0)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00658419","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.1253071" ry="0.030625438" transform="rotate(90)" x="168.12485" y="-166.04984"/>
+		<g id="LN_1-2">
+			<rect height="17.548052" id="rect1081-8-4-3-7-6-9-3" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01119344","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.6427233" ry="0.13816881" x="150.34566" y="180.36888"/>
+			<rect height="34.648781" id="rect1081-8-4-3-7-6-9-3-7" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01571525","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.638202" ry="0.27281553" x="101.91537" y="180.14111"/>
+			<rect height="48.734901" id="rect1081-8-4-3-7-6-9-3-7-8" style={{"opacity":"1","fill":"url(#linearGradient1272-8-9-7-3-9)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.01932638","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="2.8367074" ry="0.383726" transform="rotate(90)" x="179.82858" y="-151.85905"/>
+			<rect height="3.7176752" id="rect1081-8-4-32-8-19-9" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-7)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="179.20241" y="-105.07278"/>
+			<rect height="3.7176752" id="rect1081-8-4-32-8-19-8" style={{"opacity":"1","fill":"url(#radialGradient1394-8-1-0)","fillOpacity":"1","stroke":"#646464","strokeWidth":"0.00652979","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="4.2450147" ry="0.029272005" transform="rotate(90)" x="178.9648" y="-153.37637"/>
 		</g>
 		<g id="EXPERIMENT_DETAILS">
 			<text id="EXPN_TXT" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"3.52777767px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="65.213768" y="105.10046" xmlSpace="preserve">
@@ -417,7 +419,7 @@ class ProcessMap extends Component {
 				</text>
 				<rect height="5.7314448" id="PMP_1_PIP_EXIT" style={{"opacity":"1","fill":"url(#linearGradient1018)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="3.6452367" ry="0.045127906" transform="rotate(90)" x="136.1167" y="-68.829254"/>
 				<path id="PMP_1_BASE" style={{"opacity":"1","fill":"url(#radialGradient944)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} d="m 54.576604,147.85483 5.272647,-6.53233 c 1.075497,-1.33245 2.465942,-1.58902 3.737011,0.0324 l 5.10532,6.96156 c 1.551803,2.14522 -3.94149,1.09922 -7.144182,1.29727 -2.488394,-0.28155 -9.174428,1.07264 -6.970796,-1.75889 z"/>
-				<ellipse id="PMP_1_BODY" style={{"opacity":"1","fill":"url(#radialGradient933)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="61.443485" cy="140.64735" rx="4.7802582" ry="4.9886556"/>
+				<ellipse id="PMP_1_BODY" style={{"opacity":"1","fill":"url(#radialGradient933)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.1","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="61.443485" cy="140.64735" rx="4.7802582" ry="4.9886556"/>
 				<rect height="3.7550869" id="PMP_1_CLMP_EXIT" style={{"opacity":"1","fill":"url(#linearGradient1093)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="5.5320892" ry="0.02956658" transform="rotate(90)" x="135.27472" y="-72.584343"/>
 				<rect height="4.7454853" id="PMP_1_PIP_INLET" style={{"opacity":"1","fill":"url(#linearGradient1018-8)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="3.6459339" ry="0.037364718" transform="rotate(90)" x="138.93073" y="-59.582016"/>
 				<rect height="3.7550869" id="PMP_1_CLMP_INLET" style={{"opacity":"1","fill":"url(#linearGradient1093-8)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="5.5320892" ry="0.02956658" transform="rotate(90)" x="137.87543" y="-55.227211"/>
@@ -431,23 +433,23 @@ class ProcessMap extends Component {
 					<rect height="46.036709" id="VSL_1_MIDDLE" style={{"opacity":"1","fill":"url(#linearGradient972)","fillOpacity":"1","stroke":"#3264c8","strokeWidth":"0.03735325","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"0.99567099"}} width="45.204529" ry="0.3312327" x="63.603817" y="165.32137"/>
 					<ellipse id="VSL_1_TOP" style={{"opacity":"1","fill":"url(#radialGradient1044)","fillOpacity":"1","stroke":"#3264c8","strokeWidth":"0.03735325","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="86.206085" cy="165.22214" rx="22.418076" ry="3.4891102"/>
 				</g>
-				<text id="VSL_1_TJ" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="110.11425" y="209.32542" xmlSpace="preserve">
-					<tspan id="VSL_1_TJ_TXT" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} x="110.11425" y="209.32542">70</tspan>
+				<text id="VSL_1_TJ" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="75.246239" y="209.58765" xmlSpace="preserve">
+					<tspan id="VSL_1_TJ_TXT" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} x="75.246239" y="209.58765">70</tspan>
 				</text>
 				<text id="VSL_1_CONC" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"6.3499999px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="80.661682" y="228.88766" xmlSpace="preserve">
 					<tspan id="tspan1331" style={{"fontSize":"5.64444447px","strokeWidth":"0.26458332"}} x="80.661682" y="228.88766">12.2</tspan>
 				</text>
-				<text id="VSL_1_TR" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="97.442459" y="200.40436" xmlSpace="preserve">
-					<tspan id="VSL_1_TR_TXT" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} x="97.442459" y="200.40436">50</tspan>
+				<text id="VSL_1_TR" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="81.098076" y="200.6666" xmlSpace="preserve">
+					<tspan id="VSL_1_TR_TXT" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} x="81.098076" y="200.6666">50</tspan>
 				</text>
 				<text id="CONC_1_PV_UNITS" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="96.217026" y="228.57898" xmlSpace="preserve">
 					<tspan id="tspan1496" style={{"strokeWidth":"0.26458332"}} x="96.217026" y="228.57898">mg/L</tspan>
 				</text>
-				<text id="VSL_1_TR_UNITS-2" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="103.34956" y="204.16319" xmlSpace="preserve">
-					<tspan id="tspan1466-5" style={{"strokeWidth":"0.26458332"}} x="103.34956" y="204.16319">C</tspan>
+				<text id="VSL_1_TR_UNITS-2" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="88.115196" y="204.69774" xmlSpace="preserve">
+					<tspan id="tspan1466-5" style={{"strokeWidth":"0.26458332"}} x="88.115196" y="204.69774">C</tspan>
 				</text>
-				<text id="VSL_1_TR_UNITS-2-0" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="115.86287" y="213.24498" xmlSpace="preserve">
-					<tspan id="tspan1466-5-9" style={{"strokeWidth":"0.26458332"}} x="115.86287" y="213.24498">C</tspan>
+				<text id="VSL_1_TR_UNITS-2-0" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="81.91964" y="213.51225" xmlSpace="preserve">
+					<tspan id="tspan1466-5-9" style={{"strokeWidth":"0.26458332"}} x="81.91964" y="213.51225">C</tspan>
 				</text>
 			</g>
 		</g>
@@ -493,23 +495,23 @@ class ProcessMap extends Component {
 					<rect height="46.036709" id="VSL_1_MIDDLE-3" style={{"opacity":"1","fill":"url(#linearGradient1635)","fillOpacity":"1","stroke":"#3264c8","strokeWidth":"0.03735325","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"0.99567099"}} width="45.204529" ry="0.3312327" x="63.603817" y="165.32137"/>
 					<ellipse id="VSL_1_TOP-3" style={{"opacity":"1","fill":"url(#radialGradient1044-5)","fillOpacity":"1","stroke":"#3264c8","strokeWidth":"0.03735325","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="86.206085" cy="165.22214" rx="22.418076" ry="3.4891102"/>
 				</g>
-				<text id="VSL_1_TJ-3" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="110.11425" y="209.32542" xmlSpace="preserve">
-					<tspan id="VSL_1_TJ_TXT-8" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} x="110.11425" y="209.32542">70</tspan>
+				<text id="VSL_1_TJ-3" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="74.156616" y="209.32542" xmlSpace="preserve">
+					<tspan id="VSL_1_TJ_TXT-8" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} x="74.156616" y="209.32542">70</tspan>
 				</text>
 				<text id="VSL_1_CONC-0" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"6.3499999px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="80.661682" y="228.88766" xmlSpace="preserve">
 					<tspan id="tspan1331-4" style={{"fontSize":"5.64444447px","strokeWidth":"0.26458332"}} x="80.661682" y="228.88766">12.2</tspan>
 				</text>
-				<text id="VSL_1_TR-7" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="97.442459" y="200.40436" xmlSpace="preserve">
-					<tspan id="VSL_1_TR_TXT-6" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} x="97.442459" y="200.40436">50</tspan>
+				<text id="VSL_1_TR-7" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="81.642891" y="200.66658" xmlSpace="preserve">
+					<tspan id="VSL_1_TR_TXT-6" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} x="81.642891" y="200.66658">50</tspan>
 				</text>
 				<text id="CONC_1_PV_UNITS-8" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="96.217026" y="228.57898" xmlSpace="preserve">
 					<tspan id="tspan1496-9" style={{"strokeWidth":"0.26458332"}} x="96.217026" y="228.57898">mg/L</tspan>
 				</text>
-				<text id="VSL_1_TR_UNITS-2-06" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="103.34956" y="204.16319" xmlSpace="preserve">
-					<tspan id="tspan1466-5-8" style={{"strokeWidth":"0.26458332"}} x="103.34956" y="204.16319">C</tspan>
+				<text id="VSL_1_TR_UNITS-2-06" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="88.115204" y="204.43047" xmlSpace="preserve">
+					<tspan id="tspan1466-5-8" style={{"strokeWidth":"0.26458332"}} x="88.115204" y="204.43047">C</tspan>
 				</text>
-				<text id="VSL_1_TR_UNITS-2-0-7" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="115.86287" y="213.24498" xmlSpace="preserve">
-					<tspan id="tspan1466-5-9-9" style={{"strokeWidth":"0.26458332"}} x="115.86287" y="213.24498">C</tspan>
+				<text id="VSL_1_TR_UNITS-2-0-7" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="81.117828" y="213.51225" xmlSpace="preserve">
+					<tspan id="tspan1466-5-9-9" style={{"strokeWidth":"0.26458332"}} x="81.117828" y="213.51225">C</tspan>
 				</text>
 			</g>
 		</g>
@@ -541,7 +543,7 @@ class ProcessMap extends Component {
 				</text>
 				<rect height="5.7314448" id="PMP_1_PIP_EXIT-8-0" style={{"opacity":"1","fill":"url(#linearGradient2022)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="3.6452367" ry="0.045127906" transform="rotate(90)" x="136.1167" y="-68.829254"/>
 				<path id="PMP_1_BASE-8-1" style={{"opacity":"1","fill":"url(#radialGradient944-9-6)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} d="m 54.576604,147.85483 5.272647,-6.53233 c 1.075497,-1.33245 2.465942,-1.58902 3.737011,0.0324 l 5.10532,6.96156 c 1.551803,2.14522 -3.94149,1.09922 -7.144182,1.29727 -2.488394,-0.28155 -9.174428,1.07264 -6.970796,-1.75889 z"/>
-				<ellipse id="PMP_3_BODY" style={{"opacity":"1","fill":"url(#radialGradient933-9-5)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="61.443485" cy="140.64735" rx="4.7802582" ry="4.9886556"/>
+				<ellipse id="PMP_1_PIP_BODY-9-7" style={{"opacity":"1","fill":"url(#radialGradient933-9-5)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="61.443485" cy="140.64735" rx="4.7802582" ry="4.9886556"/>
 				<rect height="3.7550869" id="PMP_1_CLMP_EXIT-2-8" style={{"opacity":"1","fill":"url(#linearGradient2024)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="5.5320892" ry="0.02956658" transform="rotate(90)" x="135.27472" y="-72.584343"/>
 				<rect height="4.7454853" id="PMP_1_PIP_INLET-8-9" style={{"opacity":"1","fill":"url(#linearGradient2026)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="3.6459339" ry="0.037364718" transform="rotate(90)" x="138.93073" y="-59.582016"/>
 				<rect height="3.7550869" id="PMP_1_CLMP_INLET-8-1" style={{"opacity":"1","fill":"url(#linearGradient2028)","fillOpacity":"1","stroke":"#010001","strokeWidth":"0.09999999","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} width="5.5320892" ry="0.02956658" transform="rotate(90)" x="137.87543" y="-55.227211"/>
@@ -555,29 +557,30 @@ class ProcessMap extends Component {
 					<rect height="46.036709" id="VSL_1_MIDDLE-3-7" style={{"opacity":"1","fill":"url(#linearGradient2030)","fillOpacity":"1","stroke":"#3264c8","strokeWidth":"0.03735325","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"0.99567099"}} width="45.204529" ry="0.3312327" x="63.603817" y="165.32137"/>
 					<ellipse id="VSL_1_TOP-3-4" style={{"opacity":"1","fill":"url(#radialGradient1044-5-7)","fillOpacity":"1","stroke":"#3264c8","strokeWidth":"0.03735325","strokeMiterlimit":"4","strokeDasharray":"none","strokeOpacity":"1"}} cx="86.206085" cy="165.22214" rx="22.418076" ry="3.4891102"/>
 				</g>
-				<text id="VSL_1_TJ-3-9" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="110.11425" y="209.32542" xmlSpace="preserve">
-					<tspan id="VSL_1_TJ_TXT-8-9" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} x="110.11425" y="209.32542">70</tspan>
+				<text id="VSL_1_TJ-3-9" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="73.339394" y="210.11211" xmlSpace="preserve">
+					<tspan id="VSL_1_TJ_TXT-8-9" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254734","strokeOpacity":"0"}} x="73.339394" y="210.11211">70</tspan>
 				</text>
 				<text id="VSL_1_CONC-0-4" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"6.3499999px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="80.661682" y="228.88766" xmlSpace="preserve">
 					<tspan id="tspan1331-4-5" style={{"fontSize":"5.64444447px","strokeWidth":"0.26458332"}} x="80.661682" y="228.88766">12.2</tspan>
 				</text>
-				<text id="VSL_1_TR-7-9" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="97.442459" y="200.40436" xmlSpace="preserve">
-					<tspan id="VSL_1_TR_TXT-6-3" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} x="97.442459" y="200.40436">50</tspan>
+				<text id="VSL_1_TR-7-9" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.58113575px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} transform="scale(0.98114283,1.0192196)" x="82.460114" y="201.45328" xmlSpace="preserve">
+					<tspan id="VSL_1_TR_TXT-6-3" style={{"fontSize":"5.58113575px","stroke":"#323232","strokeWidth":"0.23254736","strokeOpacity":"0"}} x="82.460114" y="201.45328">50</tspan>
 				</text>
 				<text id="CONC_1_PV_UNITS-8-5" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="96.217026" y="228.57898" xmlSpace="preserve">
 					<tspan id="tspan1496-9-7" style={{"strokeWidth":"0.26458332"}} x="96.217026" y="228.57898">mg/L</tspan>
 				</text>
-				<text id="VSL_1_TR_UNITS-2-06-0" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="103.34956" y="204.16319" xmlSpace="preserve">
-					<tspan id="tspan1466-5-8-8" style={{"strokeWidth":"0.26458332"}} x="103.34956" y="204.16319">C</tspan>
+				<text id="VSL_1_TR_UNITS-2-06-0" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="88.115204" y="205.23227" xmlSpace="preserve">
+					<tspan id="tspan1466-5-8-8" style={{"strokeWidth":"0.26458332"}} x="88.115204" y="205.23227">C</tspan>
 				</text>
-				<text id="VSL_1_TR_UNITS-2-0-7-1" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="115.86287" y="213.24498" xmlSpace="preserve">
-					<tspan id="tspan1466-5-9-9-9" style={{"strokeWidth":"0.26458332"}} x="115.86287" y="213.24498">C</tspan>
+				<text id="VSL_1_TR_UNITS-2-0-7-1" style={{"fontStyle":"normal","fontWeight":"normal","fontSize":"5.64444447px","lineHeight":"1.25","fontFamily":"sans-serif","letterSpacing":"0px","wordSpacing":"0px","fill":"#000000","fillOpacity":"1","stroke":"none","strokeWidth":"0.26458332"}} x="79.781487" y="214.04678" xmlSpace="preserve">
+					<tspan id="tspan1466-5-9-9-9" style={{"strokeWidth":"0.26458332"}} x="79.781487" y="214.04678">C</tspan>
 				</text>
 			</g>
 		</g>
 	</g>
 </svg>
-        
+
+
       </div>
     );
   }
