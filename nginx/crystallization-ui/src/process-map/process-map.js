@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
 import { connect } from "react-redux";
 import { withStyles } from '@material-ui/core/styles';
-import { setProcessTitle } from '../actions/process-state';
+import { setProcessTitle } from './actions';
 
 const styles = theme => ({
   container: {
@@ -42,6 +42,7 @@ class ProcessMap extends Component {
   componentDidMount = () => {
     this.getElements();
     this.formatSVG();
+    this.props.setProcessTitle("hell yeah");
   }
 
   componentDidUpdate = () => {

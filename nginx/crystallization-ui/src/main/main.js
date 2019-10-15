@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { withStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router} from 'react-router-dom';
-import MainRouter from './router';
-import MenuAppBar from './app-bar';
-import MainMenu from './menu';
+import MainRouter from './main-router';
+import MainAppBar from './main-app-bar';
+import MainMenu from './main-menu';
 
 const styles = theme => ({
   container: {
@@ -41,7 +41,7 @@ class Main extends Component {
     return (
       <div className={classes.container}>
         <Router>
-          <MenuAppBar 
+          <MainAppBar 
             handleNavigationMenuClick={this.handleNavigationMenuClick}
           />
           <MainMenu

@@ -23,7 +23,7 @@ const styles = {
   },
 };
 
-class MenuAppBar extends React.Component {
+class MainAppBar extends React.Component {
   state = {
     anchorEl: null,
   };
@@ -88,8 +88,8 @@ class MenuAppBar extends React.Component {
   }
 }
 
-MenuAppBar.propTypes = {
+MainAppBar.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(MenuAppBar);
+export default withStyles(styles)(MainAppBar);

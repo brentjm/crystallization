@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import { setProcessTitle } from '../process-map/reducers';
+import { processState } from '../process-map/reducers';
 
 
 const app = combineReducers({
-
+  processState
 });
 
 export default app;
