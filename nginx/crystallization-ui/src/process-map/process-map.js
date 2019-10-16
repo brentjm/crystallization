@@ -42,7 +42,6 @@ class ProcessMap extends Component {
   componentDidMount = () => {
     this.getElements();
     this.formatSVG();
-    this.props.setProcessTitle("hell yeah");
   }
 
   componentDidUpdate = () => {
