@@ -29,12 +29,12 @@
      id="namedview1668"
      showgrid="false"
      inkscape:zoom="0.90435238"
-     inkscape:cx="540.39476"
-     inkscape:cy="360.12294"
+     inkscape:cx="526.57271"
+     inkscape:cy="365.65176"
      inkscape:window-x="0"
      inkscape:window-y="210"
      inkscape:window-maximized="1"
-     inkscape:current-layer="processMap" />
+     inkscape:current-layer="GROUP-1_STR-1" />
   <defs
      id="defs2">
     <linearGradient
@@ -2996,7 +2996,7 @@
            style="opacity:1;fill:url(#linearGradient2972);fill-opacity:1;stroke:#646464;stroke-width:0.02051547;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <text
            transform="scale(0.98114283,1.0192196)"
-           id="text2912"
+           id="GROUP-1_STR-1_PV"
            y="158.40654"
            x="87.514259"
            style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254733;stroke-opacity:0"
@@ -3006,7 +3006,7 @@
              x="87.514259"
              id="tspan2910">100</tspan></text>
         <text
-           id="text2916"
+           id="GROUP-1_STR-1_UNITS"
            y="161.14355"
            x="98.784508"
            style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
