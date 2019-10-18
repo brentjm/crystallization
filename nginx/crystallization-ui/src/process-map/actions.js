@@ -13,10 +13,3 @@ export function connectWebSocket(ipAddress) {
     });
   }
 };
-
-export function simulate() {
-  return function(dispatch, getState) {
-    let processState = getState();
-    console.log(processState);
-  }
-};

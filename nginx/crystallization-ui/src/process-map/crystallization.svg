@@ -1404,6 +1404,33 @@
        gradientUnits="userSpaceOnUse"
        id="linearGradient1324"
        xlink:href="#steal" />
+    <linearGradient
+       gradientTransform="matrix(0.67001671,0,0,1.0003733,28.806937,-0.10115254)"
+       gradientUnits="userSpaceOnUse"
+       y2="251.94472"
+       x2="100.69293"
+       y1="287.93042"
+       x1="118.14691"
+       id="linearGradient5243"
+       xlink:href="#steal" />
+    <linearGradient
+       y2="251.94472"
+       x2="100.69293"
+       y1="287.93042"
+       x1="118.14691"
+       gradientTransform="matrix(0.67001671,0,0,1.0003733,28.806937,-0.10115254)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2606"
+       xlink:href="#steal" />
+    <linearGradient
+       y2="251.94472"
+       x2="100.69293"
+       y1="287.93042"
+       x1="118.14691"
+       gradientTransform="matrix(0.67001671,0,0,1.0003733,28.806937,-0.10115254)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2649"
+       xlink:href="#steal" />
   </defs>
   <metadata
      id="metadata5">
@@ -1571,56 +1598,56 @@
          id="EXPN_TXT"
          y="105.10046"
          x="65.213768"
-         style="font-style:italic;font-weight:normal;font-size:7.05555567px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Italic';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
-           style="font-size:7.05555567px;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
            y="105.10046"
            x="65.213768"
            id="EXPN_SPAN">Experiment Name</tspan></text>
       <text
          id="USER_PV"
-         y="117.20321"
-         x="87.649109"
-         style="font-style:italic;font-weight:normal;font-size:7.05555567px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Italic';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         y="116.67404"
+         x="86.590775"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="USER_NAME_TXT"
-           style="font-size:7.05555567px;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-           y="117.20321"
-           x="87.649109"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="116.67404"
+           x="86.590775"><tspan
              id="tspan2540"
-             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555567px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;">User Name</tspan></tspan></text>
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">User Name</tspan></tspan></text>
       <text
          id="STATUS_PV"
-         y="290.30121"
-         x="140.82669"
-         style="font-style:italic;font-weight:normal;font-size:7.05555567px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Italic';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+         y="104.86992"
+         x="252.11397"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan2538-8"
-           style="font-size:7.05555567px;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
-           y="290.30121"
-           x="140.82669"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="104.86992"
+           x="252.11397"><tspan
              id="tspan2542-5"
-             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555567px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.26458332;">Halted</tspan></tspan></text>
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Halted</tspan></tspan></text>
       <text
          id="INFO_USER"
          y="116.97671"
          x="66.184425"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan2538-5"
-           style="font-size:7.05555534px;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
            y="116.97671"
            x="66.184425">User:</tspan></text>
       <text
          id="STATUS"
-         y="289.74673"
-         x="113.69267"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         y="104.84462"
+         x="226.03827"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan2538-8-3"
-           style="font-size:7.05555534px;stroke-width:0.26458332"
-           y="289.74673"
-           x="113.69267">Status:</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="104.84462"
+           x="226.03827">Status:</tspan></text>
     </g>
     <g
        id="GROUP-SEP"
@@ -1706,12 +1733,12 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0"
-           x="268.31824"
+           x="270.10736"
            y="165.77763"
            id="GROUP-SEP_PRES-1_PV"
            transform="scale(0.98114283,1.0192196)"><tspan
              id="GROUP-SEP_PRES-1_PV_SPAN"
-             x="268.31824"
+             x="270.10736"
              y="165.77763"
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0">.3</tspan></text>
         <rect
@@ -1741,14 +1768,14 @@
              style="font-size:7.05555534px;stroke-width:0.26458332">P</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="272.6149"
            y="168.97787"
            id="GROUP-SEP_PRES-1_PV_UNITS"><tspan
              id="tspan1492"
              x="272.6149"
              y="168.97787"
-             style="stroke-width:0.26458332">bar</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">bar</tspan></text>
       </g>
     </g>
     <g
@@ -1841,7 +1868,7 @@
            ry="0.36395186" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:7.52904654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.55185556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
            x="-141.87679"
            y="252.44141"
            id="GROUP-FEED_BALANCE-1_PV-7"
@@ -1849,18 +1876,18 @@
              id="tspan1236-9"
              x="-141.87679"
              y="252.44141"
-             style="stroke-width:0.35292405">200</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.55185556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.35292405">200</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:7.52904654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
-           x="-121.22089"
-           y="251.74272"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.66389179px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
+           x="-123.13824"
+           y="251.74274"
            id="GROUP-FEED_BALANCE-1_PV_UNITS-2"
            transform="scale(-0.92315535,1.0832413)"><tspan
              id="tspan1240-0"
-             x="-121.22089"
-             y="251.74272"
-             style="stroke-width:0.35292405">g</tspan></text>
+             x="-123.13824"
+             y="251.74274"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.66389179px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.35292405">g</tspan></text>
       </g>
     </g>
     <g
@@ -1925,21 +1952,21 @@
            transform="scale(-0.92315535,1.0832413)"
            id="GROUP-FEED_BALANCE-1_PV-7-6"
            y="252.44141"
-           x="-141.87679"
-           style="font-style:normal;font-weight:normal;font-size:7.52904654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
+           x="-140.07663"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02421188px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
            xml:space="preserve"><tspan
-             style="stroke-width:0.35292405"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02421188px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.35292405"
              y="252.44141"
-             x="-141.87679"
+             x="-140.07663"
              id="tspan1236-9-0">200</tspan></text>
         <text
            transform="scale(-0.92315535,1.0832413)"
            id="GROUP-FEED_BALANCE-1_PV_UNITS-2-6"
            y="251.74272"
            x="-121.22089"
-           style="font-style:normal;font-weight:normal;font-size:7.52904654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.26815891px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
            xml:space="preserve"><tspan
-             style="stroke-width:0.35292405"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.26815891px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.35292405"
              y="251.74272"
              x="-121.22089"
              id="tspan1240-0-2">g</tspan></text>
@@ -2001,17 +2028,17 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:7.52904654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
-           x="-141.87679"
+           x="-140.31578"
            y="252.44141"
            id="GROUP-FEED_BALANCE-1_PV"
            transform="scale(-0.92315535,1.0832413)"><tspan
              id="tspan1236"
-             x="-141.87679"
+             x="-140.31578"
              y="252.44141"
              style="stroke-width:0.35292405">200</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:7.52904654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64678478px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35292405"
            x="-121.22089"
            y="251.74272"
            id="GROUP-FEED_BALANCE-1_PV_UNITS"
@@ -2019,7 +2046,7 @@
              id="tspan1240"
              x="-121.22089"
              y="251.74272"
-             style="stroke-width:0.35292405">g</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64678478px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.35292405">g</tspan></text>
       </g>
       <g
          transform="translate(-13.095706,111.33038)"
@@ -2078,24 +2105,24 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0"
-           x="46.685932"
-           y="152.91785"
+           x="48.17688"
+           y="152.6308"
            id="GROUP-3_PUMP-1_PV-0"
            transform="scale(0.98114283,1.0192196)"><tspan
              id="GROUP-3_PUMP-1_PV_SPAN-9"
-             x="46.685932"
-             y="152.91785"
+             x="48.17688"
+             y="152.6308"
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0">3.0</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="57.462952"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="58.521286"
            y="155.61441"
            id="GROUP-3_PUMP-1_PV_UNITS-3"><tspan
              id="GROUP-3_PUMP-1_PV_UNITS_SPAN-6"
-             x="57.462952"
+             x="58.521286"
              y="155.61441"
-             style="stroke-width:0.26458332">ml/min</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">ml/min</tspan></text>
       </g>
       <g
          id="GROUP-FEED_LINE-1">
@@ -2207,12 +2234,12 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0"
-           x="7.7690563"
+           x="8.3083935"
            y="216.18103"
            id="GROUP-FEED_TEMP-1_PV"
            transform="scale(0.98114283,1.0192196)"><tspan
              id="stir_1_value-3-4-4-0"
-             x="7.7690563"
+             x="8.3083935"
              y="216.18103"
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0">60</tspan></text>
         <text
@@ -2227,14 +2254,14 @@
              style="font-size:7.05555534px;stroke-width:0.26458332">T</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="17.105249"
            y="220.02635"
            id="GROUP-FEED_TEMP-1_PV_UNITS"><tspan
              id="tspan1466"
              x="17.105249"
              y="220.02635"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
       </g>
       <g
          id="GROUP-FEED_VESSEL-1"
@@ -2383,14 +2410,54 @@
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254733;stroke-opacity:0">100</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="98.784508"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="97.029106"
            y="161.14355"
            id="GROUP-3_STR-1_UNITS"><tspan
              id="STR-1_PV_UNITS_SPAN"
-             x="98.784508"
+             x="97.029106"
              y="161.14355"
-             style="stroke-width:0.26458332">RPM</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">RPM</tspan></text>
+      </g>
+      <g
+         id="GROUP-3_CHILLER-1"
+         transform="translate(-11.207853,0.87769441)">
+        <rect
+           style="opacity:1;fill:url(#linearGradient2649);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-3_CHILLER-1_UNIT"
+           width="23.130896"
+           height="48.584194"
+           x="86.242126"
+           y="246.66946"
+           ry="1.1833168" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
+           id="GROUP-3_CHILLER-1_WAVE-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
+           id="GROUP-3_CHILLER-1_WAVE-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
+           id="GROUP-3_CHILLER-1_WAVE-3" />
+        <rect
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-3_CHILLER-1_WINDOW-1"
+           width="19.596434"
+           height="2.3350008"
+           x="87.940659"
+           y="250.77722"
+           ry="1.1675004" />
+        <rect
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-3_CHILLER-1_WINDOW-2"
+           width="19.59968"
+           height="4.9713459"
+           x="88.063705"
+           y="256.04178"
+           ry="1.1697271" />
       </g>
       <g
          id="GROUP-3_PUMP-1">
@@ -2457,14 +2524,14 @@
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0">3.0</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="57.462952"
            y="155.61441"
            id="GROUP-3_PUMP-1_PV_UNITS"><tspan
              id="GROUP-3_PUMP-1_PV_UNITS_SPAN"
              x="57.462952"
              y="155.61441"
-             style="stroke-width:0.26458332">ml/min</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">ml/min</tspan></text>
       </g>
       <g
          id="GROUP-3_VESSEL-1">
@@ -2497,7 +2564,7 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.58113575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0"
            x="73.339394"
            y="210.11211"
            id="GROUP-3_VESSEL-1_TJ_PV"
@@ -2505,58 +2572,58 @@
              id="GROUP-3_VESSEL-1_TJ_PV_SPAN"
              x="73.339394"
              y="210.11211"
-             style="font-size:5.58113575px;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0">70</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0">70</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="79.781487"
            y="214.04678"
            id="GROUP-3_VESSEL-1_TJ_PV_UNITS"><tspan
              id="GROUP-3_VESSEL-1_TJ_PV_UNITS_SPAN"
              x="79.781487"
              y="214.04678"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.58113575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0"
-           x="82.460114"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0"
+           x="80.969162"
            y="201.45328"
            id="GROUP-3_VESSEL-1_TR_PV"
            transform="scale(0.98114283,1.0192196)"><tspan
              id="GROUP-3_VESSEL-1_TR_PV_SPAN"
-             x="82.460114"
+             x="80.969162"
              y="201.45328"
-             style="font-size:5.58113575px;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0">50</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0">50</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="88.115204"
            y="205.23227"
            id="GROUP-3_VESSEL-1_TR_PV_UNITS"><tspan
              id="GROUP-3_VESSEL-1_TR_UNITS_SPAN"
              x="88.115204"
              y="205.23227"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="80.661682"
            y="228.88766"
            id="GROUP-3_VESSEL-1_CONC_PV"><tspan
              id="tspan1235"
              x="80.661682"
              y="228.88766"
-             style="font-size:5.64444447px;stroke-width:0.26458332">12.2</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">12.2</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="96.217026"
            y="228.57898"
            id="GROUP-3_VESSEL-1_CONC_PV_UNITS"><tspan
              id="GROUP-3_VESSEL-1_CONC_UNITS_SPAN"
              x="96.217026"
              y="228.57898"
-             style="stroke-width:0.26458332">mg/L</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">mg/L</tspan></text>
       </g>
     </g>
     <g
@@ -2675,14 +2742,54 @@
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254733;stroke-opacity:0">100</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="98.784508"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="97.321678"
            y="161.14355"
            id="GROUP-2_STR-1_UNITS"><tspan
              id="tspan2101"
-             x="98.784508"
+             x="97.321678"
              y="161.14355"
-             style="stroke-width:0.26458332">RPM</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">RPM</tspan></text>
+      </g>
+      <g
+         id="GROUP-2_CHILLER-1"
+         transform="translate(-5.9416491,1.1702614)">
+        <rect
+           style="opacity:1;fill:url(#linearGradient2606);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-2_CHILLER-1_UNIT"
+           width="23.130896"
+           height="48.584194"
+           x="86.242126"
+           y="246.66946"
+           ry="1.1833168" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
+           id="GROUP-2_CHILLER-1_WAVE-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
+           id="GROUP-2_CHILLER-1_WAVE-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
+           id="GROUP-2_CHILLER-1_WAVE-3" />
+        <rect
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-2_CHILLER-1_WINDOW-1"
+           width="19.596434"
+           height="2.3350008"
+           x="87.940659"
+           y="250.77722"
+           ry="1.1675004" />
+        <rect
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-2_CHILLER-1_WINDOW-2"
+           width="19.59968"
+           height="4.9713459"
+           x="88.063705"
+           y="256.04178"
+           ry="1.1697271" />
       </g>
       <g
          id="GROUP-2_PUMP-1">
@@ -2749,14 +2856,14 @@
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0">3.0</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="57.462952"
            y="155.61441"
            id="GROUP-2_PUMP-1_PV_UNITS"><tspan
              id="GROUP-2_PUMP-1_PV_UNITS_SPAN"
              x="57.462952"
              y="155.61441"
-             style="stroke-width:0.26458332">ml/min</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">ml/min</tspan></text>
       </g>
       <g
          id="GROUP-2_VESSEL-1">
@@ -2789,7 +2896,7 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.58113575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0"
            x="73.339394"
            y="210.11211"
            id="GROUP-2_VESSEL-1_TJ_PV"
@@ -2797,58 +2904,58 @@
              id="GROUP-2_VESSEL-1_TJ_PV_SPAN"
              x="73.339394"
              y="210.11211"
-             style="font-size:5.58113575px;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0">70</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0">70</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="79.781487"
            y="214.04678"
            id="GROUP-2_VESSEL-1_TJ_PV_UNITS"><tspan
              id="GROUP-2_VESSEL-1_TJ_PV_UNITS_SPAN"
              x="79.781487"
              y="214.04678"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.58113575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0"
-           x="82.460114"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0"
+           x="80.969162"
            y="201.45328"
            id="GROUP-2_VESSEL-1_TR_PV"
            transform="scale(0.98114283,1.0192196)"><tspan
              id="GROUP-2_VESSEL-1_TR_PV_SPAN"
-             x="82.460114"
+             x="80.969162"
              y="201.45328"
-             style="font-size:5.58113575px;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0">50</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0">50</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="88.115204"
            y="205.23227"
            id="GROUP-2_VESSEL-1_TR_PV_UNITS"><tspan
              id="GROUP-2_VESSEL-1_TR_UNITS_SPAN"
              x="88.115204"
              y="205.23227"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="80.661682"
            y="228.88766"
            id="GROUP-2_VESSEL-1_CONC_PV"><tspan
              id="tspan2131"
              x="80.661682"
              y="228.88766"
-             style="font-size:5.64444447px;stroke-width:0.26458332">12.2</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">12.2</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="96.217026"
            y="228.57898"
            id="GROUP-2_VESSEL-1_CONC_PV_UNITS"><tspan
              id="GROUP-2_VESSEL-1_CONC_UNITS_SPAN"
              x="96.217026"
              y="228.57898"
-             style="stroke-width:0.26458332">mg/L</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">mg/L</tspan></text>
       </g>
     </g>
     <g
@@ -2967,14 +3074,14 @@
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254733;stroke-opacity:0">100</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="98.784508"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="97.029106"
            y="161.14355"
            id="GROUP-1_STR-1_UNITS"><tspan
              id="tspan2914"
-             x="98.784508"
+             x="97.029106"
              y="161.14355"
-             style="stroke-width:0.26458332">RPM</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">RPM</tspan></text>
       </g>
       <g
          id="GROUP-1_PUMP-1">
@@ -3041,14 +3148,14 @@
              style="font-size:5.64444447px;stroke:#323232;stroke-width:0.23254737;stroke-opacity:0">3.0</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="57.462952"
            y="155.61441"
            id="GROUP-1_PUMP-1_PV_UNITS"><tspan
              id="GROUP-1_PUMP-1_PV_UNITS_SPAN"
              x="57.462952"
              y="155.61441"
-             style="stroke-width:0.26458332">ml/min</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">ml/min</tspan></text>
       </g>
       <g
          id="GROUP-1_VESSEL-1">
@@ -3081,7 +3188,7 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.58113575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0"
            x="73.339394"
            y="210.11211"
            id="GROUP-1_VESSEL-1_TJ_PV"
@@ -3089,58 +3196,98 @@
              id="GROUP-1_VESSEL-1_TJ_PV_SPAN"
              x="73.339394"
              y="210.11211"
-             style="font-size:5.58113575px;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0">70</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#323232;stroke-width:0.23254734;stroke-opacity:0">70</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="79.781487"
            y="214.04678"
            id="GROUP-1_VESSEL-1_TJ_PV_UNITS"><tspan
              id="GROUP-1_VESSEL-1_TJ_PV_UNITS_SPAN"
              x="79.781487"
              y="214.04678"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.58113575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0"
-           x="82.460114"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0"
+           x="81.267357"
            y="201.45328"
            id="GROUP-1_VESSEL-1_TR_PV"
            transform="scale(0.98114283,1.0192196)"><tspan
              id="GROUP-1_VESSEL-1_TR_PV_SPAN"
-             x="82.460114"
+             x="81.267357"
              y="201.45328"
-             style="font-size:5.58113575px;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0">50</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#323232;stroke-width:0.23254736;stroke-opacity:0">50</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="88.115204"
            y="205.23227"
            id="GROUP-1_VESSEL-1_TR_PV_UNITS"><tspan
              id="GROUP-1_VESSEL-1_TR_UNITS_SPAN"
              x="88.115204"
              y="205.23227"
-             style="stroke-width:0.26458332">C</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="80.661682"
            y="228.88766"
            id="GROUP-1_VESSEL-1_CONC_PV"><tspan
              id="tspan2943"
              x="80.661682"
              y="228.88766"
-             style="font-size:5.64444447px;stroke-width:0.26458332">12.2</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">12.2</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="96.217026"
            y="228.57898"
            id="GROUP-1_VESSEL-1_CONC_PV_UNITS"><tspan
              id="GROUP-1_VESSEL-1_CONC_UNITS_SPAN"
              x="96.217026"
              y="228.57898"
-             style="stroke-width:0.26458332">mg/L</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">mg/L</tspan></text>
+      </g>
+      <g
+         transform="translate(-7.6067327,0.58513333)"
+         id="GROUP-1_CHILLER-1">
+        <rect
+           style="opacity:1;fill:url(#linearGradient5243);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-1_CHILLER-1_UNIT"
+           width="23.130896"
+           height="48.584194"
+           x="86.242126"
+           y="246.66946"
+           ry="1.1833168" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
+           id="GROUP-1_CHILLER-1_WAVE-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
+           id="GROUP-1_CHILLER-1_WAVE-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
+           id="GROUP-1_CHILLER-1_WAVE-3" />
+        <rect
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-1_CHILLER-1_WINDOW-1"
+           width="19.596434"
+           height="2.3350008"
+           x="87.940659"
+           y="250.77722"
+           ry="1.1675004" />
+        <rect
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="GROUP-1_CHILLER-1_WINDOW-2"
+           width="19.59968"
+           height="4.9713459"
+           x="88.063705"
+           y="256.04178"
+           ry="1.1697271" />
       </g>
     </g>
   </g>
