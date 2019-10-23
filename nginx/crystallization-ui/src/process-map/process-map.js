@@ -69,14 +69,14 @@ class ProcessMap extends Component {
   };
 
   componentDidMount = () => {
-    this.props.connectWebSocket("ws://10.131.0.175:1880/ws/process");
+    this.props.connectWebSocket("ws://10.131.0.175:1880/ws/crystallizer");
     this.getElements(hardwareGroups, PVs);
     this.addEventListeners(hardwareGroups, PVs);
     this.formatSVG(hardwareGroups, PVs);
   }
 
   componentDidUpdate = () => {
-    this.formatSVG();
+    this.formatSVG(hardwareGroups, PVs);
   }
 
   handleEquipmentClick = (equipment) => {
@@ -104,9 +104,11 @@ class ProcessMap extends Component {
   };
 
   addEventListeners = (hardwareGroups, PVs) => {
-    for (let hg in hardwareGroups) {
-      this[hg].addEventListener('click', event => {
-        this.handleEquipmentClick(event.target.id);
+    for (let PV in PVs) {
+      console.log(PV);
+      this[PV].addEventListener('click', event => {
+        let equipment = PV.split(":").slice(0, 2).join(":");
+        this.handleEquipmentClick(equipment);
       });
     }
   };
@@ -135,7 +137,6 @@ class ProcessMap extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.container}>
-
 
 <svg height="760" id="crystallization" width="1080" version="1.1" viewBox="0 0 285.75 201.08334" xmlns="http://www.w3.org/2000/svg">
 	<defs id="defs2">

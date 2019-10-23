@@ -1,10 +1,10 @@
 var Immutable = require('seamless-immutable').static;
 
-const initialProcessState = Immutable({
-  "TITLE": "My Process",
-  "USER": "Brent",
+export const initialProcessState = {
+  "TITLE": "IRAK4",
+  "USER": "Brent Maranzano",
   "STATUS": "Running",
-  "PUMP:1:RATE:PV": "3.1",
+  "PUMP:1:RATE:PV": "2.3",
   "STIR:1:SPEED:PV": "190",
   "TCU:1:BATH:TEMP:PV": "60",
   "TCU:1:SENSOR:TEMP:PV": "58",
@@ -14,16 +14,20 @@ const initialProcessState = Immutable({
   "TCU:2:SENSOR:TEMP:PV": "26",
   "PUMP:3:RATE:PV": "1.8",
   "STIR:3:SPEED:PV": "250",
-  "TCU:3:BATH:TEMP:PV": "  5",
-  "TCU:3:SENSOR:TEMP:PV": "  4",
-});
+  "TCU:3:BATH:TEMP:PV": "5",
+  "TCU:3:SENSOR:TEMP:PV": "4",
+};
 
 export const processState = (state = initialProcessState, action) => {
   switch (action.type) {
     case "SET_PROCESS_STATE": {
       let { processState } = action;
       processState = JSON.parse(processState);
-      return Immutable.merge(state, {TITLE: processState.TITLE})
+      let item = processState["equipment"]+":"+processState["command"];
+      let value = processState["value"];
+      let update = {};
+      update[item] = String(value);
+      return Immutable.merge(state, update);
     }
     default:
       return state;
