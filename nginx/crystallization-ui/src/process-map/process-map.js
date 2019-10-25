@@ -38,27 +38,33 @@ const PVs = {
   "TITLE": "EXPN_TXT",
   "USER": "USER_PV",
   "STATUS": "STATUS_PV",
-  "PUMP:1:RATE:PV": "GROUP-1_PUMP-1_PV",
-  "STIR:1:SPEED:PV": "GROUP-1_STR-1_PV",
   "TCU:1:BATH:TEMP:PV": "GROUP-1_VESSEL-1_TJ_PV",
   "TCU:1:SENSOR:TEMP:PV": "GROUP-1_VESSEL-1_TR_PV",
-  //  "CONC-1": "GROUP-1_VESSEL-1_CONC_PV",
-  "PUMP:2:RATE:PV": "GROUP-2_PUMP-1_PV",
-  "STIR:2:SPEED:PV": "GROUP-2_STR-1_PV",
   "TCU:2:BATH:TEMP:PV": "GROUP-2_VESSEL-1_TJ_PV",
   "TCU:2:SENSOR:TEMP:PV": "GROUP-2_VESSEL-1_TR_PV",
-  //  "CONC-2": "GROUP-2_VESSEL-1_CONC_PV",
-  "PUMP:3:RATE:PV": "GROUP-3_PUMP-1_PV",
-  "STIR:3:SPEED:PV": "GROUP-3_STR-1_PV",
   "TCU:3:BATH:TEMP:PV": "GROUP-3_VESSEL-1_TJ_PV",
   "TCU:3:SENSOR:TEMP:PV": "GROUP-3_VESSEL-1_TR_PV",
-  //  "CONC-3": "GROUP-3_VESSEL-1_CONC_PV",
-  //  "BAL-AS": "GROUP-FEED_BALANCE-1_PV-7",
-  //  "BAL-FD": "GROUP-FEED_BALANCE-1_PV",
-  //  "PUMP-FD": "GROUP-3_PUMP-1_PV-0",
-  //  "TEMP-FD": "GROUP-FEED_TEMP-1_PV",
-  //  "PRES-SEP": "GROUP-SEP_PRES-1_PV",
-  //  "BAL-SEP": "GROUP-FEED_BALANCE-1_PV-7-6",
+  "STIR:1:SPEED:PV": "GROUP-1_STR-1_PV",
+  "STIR:2:SPEED:PV": "GROUP-2_STR-1_PV",
+  "STIR:3:SPEED:PV": "GROUP-3_STR-1_PV",
+  "PUMP:1:RATE:PV": "GROUP-1_PUMP-1_PV",
+  "PUMP:2:RATE:PV": "GROUP-2_PUMP-1_PV",
+  "PUMP:3:RATE:PV": "GROUP-3_PUMP-1_PV",
+  "PUMP:FEED:RATE:PV": "GROUP-3_PUMP-1_PV-0",
+  "BALANCE:PRODUCT:MASS:PV": "GROUP-FEED_BALANCE-1_PV-7-6",
+  "BALANCE:FEED:MASS:PV": "GROUP-FEED_BALANCE-1_PV",
+  "BALANCE:ANTISOLVENT:MASS:PV": "GROUP-FEED_BALANCE-1_PV-7",
+  "IR:1:CONCENTRATION:PV": "GROUP-1_VESSEL-1_CONC_PV",
+  "IR:2:CONCENTRATION:PV": "GROUP-2_VESSEL-1_CONC_PV",
+  "IR:3:CONCENTRATION:PV": "GROUP-3_VESSEL-1_CONC_PV",
+  "FBRM:1:D50:PV": "GROUP-1_VESSEL-1_D50_PV",
+  "FBRM:2:D50:PV": "GROUP-2_VESSEL-1_D50_PV",
+  "FBRM:3:D50:PV": "GROUP-3_VESSEL-1_D50_PV",
+  "FBRM:1:D90:PV": "GROUP-1_VESSEL-1_D90_PV",
+  "FBRM:2:D90:PV": "GROUP-2_VESSEL-1_D90_PV",
+  "FBRM:3:D90:PV": "GROUP-3_VESSEL-1_D90_PV",
+  "THERMOCOUPLE:FEED:TEMP:PV": "GROUP-FEED_TEMP-1_PV",
+  "PT:SEPARATOR:PRESSURE:PV": "GROUP-SEP_PRES-1_PV",
 };
   
 class ProcessMap extends Component {
@@ -69,8 +75,8 @@ class ProcessMap extends Component {
   };
 
   componentDidMount = () => {
-    //this.props.connectWebSocket("ws://10.131.0.175:1880/ws/crystallizer");
-    this.props.connectWebSocket("ws://192.168.1.2:1880/ws/crystallizer");
+    this.props.connectWebSocket("ws://10.131.0.175:1880/ws/crystallizer");
+    //this.props.connectWebSocket("ws://192.168.1.2:1880/ws/crystallizer");
     this.getElements(hardwareGroups, PVs);
     this.addEventListeners(hardwareGroups, PVs);
     this.formatSVG(hardwareGroups, PVs);
