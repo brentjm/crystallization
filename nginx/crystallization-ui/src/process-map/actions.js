@@ -3,11 +3,6 @@ export const setProcessState = (processState) => ({
   processState
 });
 
-// TODO
-export const test = () => ({
-  type: "TEST"
-});
-
 export function connectWebSocket(ipAddress) {
   // Return a thunk that can be dispatched when the process-map is viewed
   return function(dispatch) {

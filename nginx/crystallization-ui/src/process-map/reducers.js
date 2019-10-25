@@ -27,6 +27,7 @@ export const processState = (state = initialProcessState, action) => {
       let value = processState["value"];
       let update = {};
       update[item] = String(value);
+      console.log(update);
       return Immutable.merge(state, update);
     }
     default:

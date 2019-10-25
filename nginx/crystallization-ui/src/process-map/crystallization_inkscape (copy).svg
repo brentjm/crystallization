@@ -13,7 +13,7 @@
    viewBox="0 0 285.75 201.08334"
    height="760"
    width="1080"
-   sodipodi:docname="crystallization_inkscape.svg.2019_10_18_14_15_32.0.svg"
+   sodipodi:docname="crystallization_inkscape.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -1470,7 +1470,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2461,6 +2461,52 @@
              id="STR-1_PV_UNITS_SPAN">RPM</tspan></text>
       </g>
       <g
+         transform="translate(-11.207853,0.87769441)"
+         id="GROUP-3_CHILLER-1">
+        <rect
+           ry="1.1833168"
+           y="246.66946"
+           x="86.242126"
+           height="48.584194"
+           width="23.130896"
+           id="GROUP-3_CHILLER-1_UNIT"
+           style="opacity:1;fill:url(#linearGradient2649);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="GROUP-3_CHILLER-1_WAVE-1"
+           d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
+           style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="GROUP-3_CHILLER-1_WAVE-2"
+           d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
+           style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="GROUP-3_CHILLER-1_WAVE-3"
+           d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
+           style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           ry="1.1675004"
+           y="250.77722"
+           x="87.940659"
+           height="2.3350008"
+           width="19.596434"
+           id="GROUP-3_CHILLER-1_WINDOW-1"
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           ry="1.1697271"
+           y="256.04178"
+           x="88.063705"
+           height="4.9713459"
+           width="19.59968"
+           id="GROUP-3_CHILLER-1_WINDOW-2"
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
          id="GROUP-3_PUMP-1">
         <g
            id="GROUP-3_PUMP-1_BODY">
@@ -2755,6 +2801,52 @@
              y="161.14355"
              x="97.321678"
              id="tspan2101">RPM</tspan></text>
+      </g>
+      <g
+         transform="translate(-5.9416491,1.1702614)"
+         id="GROUP-2_CHILLER-1">
+        <rect
+           ry="1.1833168"
+           y="246.66946"
+           x="86.242126"
+           height="48.584194"
+           width="23.130896"
+           id="GROUP-2_CHILLER-1_UNIT"
+           style="opacity:1;fill:url(#linearGradient2606);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="GROUP-2_CHILLER-1_WAVE-1"
+           d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
+           style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="GROUP-2_CHILLER-1_WAVE-2"
+           d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
+           style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="GROUP-2_CHILLER-1_WAVE-3"
+           d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
+           style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           ry="1.1675004"
+           y="250.77722"
+           x="87.940659"
+           height="2.3350008"
+           width="19.596434"
+           id="GROUP-2_CHILLER-1_WINDOW-1"
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           ry="1.1697271"
+           y="256.04178"
+           x="88.063705"
+           height="4.9713459"
+           width="19.59968"
+           id="GROUP-2_CHILLER-1_WINDOW-2"
+           style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
       <g
          id="GROUP-2_PUMP-1">
@@ -3218,7 +3310,7 @@
       </g>
       <g
          id="GROUP-1_CHILLER-1"
-         transform="translate(-7.8992993,-4.6810662)">
+         transform="translate(-7.6067327,0.58513333)">
         <rect
            ry="1.1833168"
            y="246.66946"
@@ -3262,98 +3354,6 @@
            id="GROUP-1_CHILLER-1_WINDOW-2"
            style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
-    </g>
-    <g
-       transform="translate(52.571679,-4.973638)"
-       id="GROUP-2_CHILLER-1">
-      <rect
-         ry="1.1833168"
-         y="246.66946"
-         x="86.242126"
-         height="48.584194"
-         width="23.130896"
-         id="GROUP-2_CHILLER-1_UNIT"
-         style="opacity:1;fill:url(#linearGradient2606);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="GROUP-2_CHILLER-1_WAVE-1"
-         d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
-         style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="GROUP-2_CHILLER-1_WAVE-2"
-         d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
-         style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="GROUP-2_CHILLER-1_WAVE-3"
-         d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
-         style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         ry="1.1675004"
-         y="250.77722"
-         x="87.940659"
-         height="2.3350008"
-         width="19.596434"
-         id="GROUP-2_CHILLER-1_WINDOW-1"
-         style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         ry="1.1697271"
-         y="256.04178"
-         x="88.063705"
-         height="4.9713459"
-         width="19.59968"
-         id="GROUP-2_CHILLER-1_WINDOW-2"
-         style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
-       transform="translate(108.74447,-4.6810718)"
-       id="GROUP-3_CHILLER-1">
-      <rect
-         ry="1.1833168"
-         y="246.66946"
-         x="86.242126"
-         height="48.584194"
-         width="23.130896"
-         id="GROUP-3_CHILLER-1_UNIT"
-         style="opacity:1;fill:url(#linearGradient2649);fill-opacity:1;stroke:#010001;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="GROUP-3_CHILLER-1_WAVE-1"
-         d="m 86.600311,279.9494 c 6.314141,-9.24352 5.393334,-11.62043 11.312844,-4.48972 3.946355,6.07432 7.498045,10.29993 11.444395,-0.26408"
-         style="fill:none;stroke:#000000;stroke-width:0.84863865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="GROUP-3_CHILLER-1_WAVE-2"
-         d="m 86.596721,284.08965 c 6.154701,-9.2532 5.257146,-11.63261 11.027188,-4.49442 3.846701,6.08069 7.308711,10.31073 11.155411,-0.26437"
-         style="fill:none;stroke:#000000;stroke-width:0.83829516;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="GROUP-3_CHILLER-1_WAVE-3"
-         d="m 86.545112,288.27974 c 6.153926,-9.25173 5.256484,-11.63075 11.025786,-4.49371 3.846212,6.07972 7.307792,10.30909 11.154002,-0.26431"
-         style="fill:none;stroke:#000000;stroke-width:0.838175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         ry="1.1675004"
-         y="250.77722"
-         x="87.940659"
-         height="2.3350008"
-         width="19.596434"
-         id="GROUP-3_CHILLER-1_WINDOW-1"
-         style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10553259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         ry="1.1697271"
-         y="256.04178"
-         x="88.063705"
-         height="4.9713459"
-         width="19.59968"
-         id="GROUP-3_CHILLER-1_WINDOW-2"
-         style="opacity:1;fill:#64ad64;fill-opacity:1;stroke:#010001;stroke-width:0.10228741;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
