@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y curl
 #COPY nginx/example.conf /etc/nginx/conf.d/.
 COPY ./app.conf /etc/nginx/conf.d/.
 
-COPY html/index.html /usr/share/nginx/html/.
+COPY crystallization-ui/build /usr/share/nginx/html/
