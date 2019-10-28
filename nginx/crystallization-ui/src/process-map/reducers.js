@@ -30,7 +30,8 @@ export const initialProcessState = {
   "FBRM:2:D90:PV": "4.31",
   "FBRM:3:D90:PV": "5.65",
   "THERMOCOUPLE:FEED:TEMP:PV": "60.2",
-  "PT:SEPARATOR:PRESSURE:PV": "0.8"
+  "PT:SEPARATOR:PRESSURE:PV": "0.8",
+  "VALVES:STATE:PV": {"A": "CLOSED", "B": "CLOSED", "C": "CLOSED", "D": "CLOSED", "E": "CLOSED"}
 };
 
 export const processState = (state = initialProcessState, action) => {
@@ -42,7 +43,9 @@ export const processState = (state = initialProcessState, action) => {
       let value = processState["value"];
       let update = {};
       update[item] = String(value);
-      console.log(update);
+      if (processState["equipment"] === "VALVES") {
+        console.log(processState["value"]);
+      }
       return Immutable.merge(state, update);
     }
     default:
