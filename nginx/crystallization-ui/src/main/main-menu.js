@@ -46,7 +46,7 @@ class MainMenu extends Component {
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175/grafana" target="_blank" rel="noopener noreferrer">Data Base</a></p>
+                <p><a href="http://nginx/grafana" target="_blank" rel="noopener noreferrer">Data Base</a></p>
               </ListItemText>
             </ListItem>
             <ListItem button>
@@ -56,7 +56,7 @@ class MainMenu extends Component {
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://localhost:1880" target="_blank" rel="noopener noreferrer">Automation</a></p>
+                <p><a href="http://node-red:1880" target="_blank" rel="noopener noreferrer">Automation</a></p>
               </ListItemText>
             </ListItem>
           </List>
