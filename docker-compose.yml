@@ -4,7 +4,7 @@ services:
   postgres:
     build: ./postgres
     image: postgres-custom
-    container_name: postgres
+    container_name: crystallization_postgres_database
     volumes:
       - type: volume
         source: postgres-data
@@ -18,7 +18,7 @@ services:
   influx:
     build: ./influx
     image: influxdb-custom
-    container_name: influxdb
+    container_name: crystallization_influx_database
     volumes: 
       - type: volume
         source: influxdb-data
@@ -32,7 +32,7 @@ services:
   mosquitto:
     build: ./mosquitto
     image: mosquitto-custom
-    container_name: mosquitto
+    container_name: crystallization_mosquitto
     volumes:
       - type: volume
         source: mosquitto_log
@@ -54,25 +54,43 @@ services:
   node-red:
     build: ./node-red
     image: node-red-custom
-    container_name: node-red
+    container_name: crystallization_node-red_automation
     volumes:
       - type: volume
         source: node-red-data
         target: /data
     networks:
       - app      
-#    ports:
-#        - "1880:1880"
+    ports:
+        - "1880:1880"
     depends_on:
       - mosquitto
       - postgres
       - influx
     restart: unless-stopped
 
+#  node-red-user:
+#    build: ./node-red-user
+#    image: node-red-user-custom
+#    container_name: crystallization_node-red_user
+#    volumes:
+#      - type: volume
+#        source: node-red-user-data
+#        target: /data
+#    networks:
+#      - app      
+#    ports:
+#        - "1880:1880"
+#    depends_on:
+#      - mosquitto
+#      - postgres
+#      - influx
+#    restart: unless-stopped
+
   grafana:
     build: ./grafana
     image: grafana-custom
-    container_name: grafana
+    container_name: crystallization_grafana
     volumes:
       - type: volume
         source: grafana-data
@@ -89,7 +107,7 @@ services:
   nginx:
     build: ./nginx
     image: nginx-custom
-    container_name: nginx
+    container_name: crystallization_nginx
     networks:
       - app
     ports:
@@ -103,7 +121,7 @@ services:
   flask:
     build: ./flask
     image: flask-custom
-    container_name: flask
+    container_name: crystallization_flask
     networks:
       - app
 #    ports:
@@ -116,7 +134,7 @@ services:
   jupyter:
     build: ./jupyter
     image: jupyter-notebook
-    container_name: jupyter
+    container_name: crystallization_jupyter
 #    volumes:
 #      - type: volume
 #        source: jupyter-data
@@ -129,6 +147,7 @@ services:
 
 volumes:
   node-red-data:
+  node-red-user-data:
   postgres-data:
   influxdb-data:
   mosquitto_log:

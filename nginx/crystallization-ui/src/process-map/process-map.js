@@ -75,8 +75,7 @@ class ProcessMap extends Component {
   };
 
   componentDidMount = () => {
-    this.props.connectWebSocket("ws://nodered/ws/crystallizer");
-    //this.props.connectWebSocket("ws://10.131.0.175:1880/ws/crystallizer");
+    this.props.connectWebSocket("ws://10.131.0.175:1880/ws/crystallizer");
     //this.props.connectWebSocket("ws://192.168.1.2:1880/ws/crystallizer");
     //this.props.connectWebSocket("ws://192.168.1.3:1880/ws/crystallizer");
     this.getElements(hardwareGroups, PVs);
@@ -136,9 +135,11 @@ class ProcessMap extends Component {
     for (let PV in PVs) {
       this[PV].textContent = this.props.processState[PV];
     }
+      /*
     if (this.props.processState["VALVES:STATE:PV"]["A"] === "CLOSED") {
       console.log(this.props.processState["VALVES:STATE:PV"]);
     }
+    */
   };
 
   render() {

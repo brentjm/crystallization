@@ -43,9 +43,6 @@ export const processState = (state = initialProcessState, action) => {
       let value = processState["value"];
       let update = {};
       update[item] = String(value);
-      if (processState["equipment"] === "VALVES") {
-        console.log(processState["value"]);
-      }
       return Immutable.merge(state, update);
     }
     default:
