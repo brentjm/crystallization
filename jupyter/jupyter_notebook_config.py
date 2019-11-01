@@ -275,7 +275,7 @@ c.NotebookApp.local_hostnames = ['jupyter', 'nginx', 'xeon']
 #    from notebook.auth import passwd; passwd()
 #  
 #  The string should be of the form type:salt:hashed-password.
-c.NotebookApp.password = 'jupyter:'
+c.NotebookApp.password = 'sha1:e2ee3519f70d:3ce4044bdc516f11fab6a3da834a6f048f9d6445'
 
 ## Forces users to use a password for the Notebook server. This is useful in a
 #  multi user environment, for instance when everybody in the LAN can access each

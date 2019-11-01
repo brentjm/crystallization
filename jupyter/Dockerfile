@@ -9,12 +9,18 @@ RUN apt-get update \
         libfreetype6-dev \
     && apt-get clean
 
-RUN pip install jupyter
+RUN pip install jupyter \
+    && useradd -ms /bin/bash brent \
+    && mkdir /home/brent/.jupyter \
+    && mkdir /home/brent/calculations
 
-#CMD ["/bin/bash", "-c", "sleep 10000"]
+COPY jupyter_notebook_config.py /home/brent/.jupyter/.
+RUN chown -R brent:brent /home/brent/.jupyter
+
+USER brent
+
 CMD jupyter notebook \
-#        --notebook-dir=/opt/notebooks \
+        --notebook-dir='/home/brent/calculations' \
         --ip='0.0.0.0' \
         --port=8888  \
         --no-browser \
-        --allow-root
