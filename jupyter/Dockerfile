@@ -15,7 +15,8 @@ RUN pip install jupyter \
     && mkdir /home/brent/calculations
 
 COPY jupyter_notebook_config.py /home/brent/.jupyter/.
-RUN chown -R brent:brent /home/brent/.jupyter
+RUN chown -R brent:brent /home/brent/.jupyter \
+    && chmod 777 /home/brent/calculations
 
 USER brent
 
