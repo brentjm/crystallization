@@ -9,12 +9,13 @@ RUN apt-get update \
         libfreetype6-dev \
     && apt-get clean
 
-RUN pip install jupyter \
+RUN pip install jupyter websocket
     && useradd -ms /bin/bash brent \
     && mkdir /home/brent/.jupyter \
     && mkdir /home/brent/calculations
 
 COPY jupyter_notebook_config.py /home/brent/.jupyter/.
+COPY Model.ipynb /home/brent/calculations/.
 RUN chown -R brent:brent /home/brent/.jupyter \
     && chmod 777 /home/brent/calculations
 
