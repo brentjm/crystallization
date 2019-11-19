@@ -9,7 +9,7 @@ RUN apt-get update \
         libfreetype6-dev \
     && apt-get clean
 
-RUN pip install jupyter websocket
+RUN pip install jupyter websocket numpy matplotlib json \
     && useradd -ms /bin/bash brent \
     && mkdir /home/brent/.jupyter \
     && mkdir /home/brent/calculations
