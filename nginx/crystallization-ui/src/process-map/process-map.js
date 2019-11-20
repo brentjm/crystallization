@@ -169,13 +169,13 @@ class ProcessMap extends Component {
             HALT
           </Button>
           <Button variant="contained" color="primary" className={classes.resumeButton} 
-            aria-label="RESUME process" 
+            aria-label="INITIALIZE process" 
             onClick={()=>{sendWebSocketCommand({
               "equipment": "CRYSTALLIZER",
               "command": "INITIALIZE"
             })}}
           >
-            RESUME
+            INITIALIZE
           </Button>
         </div>
         <div>
