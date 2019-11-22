@@ -11,6 +11,7 @@ export function connectWebSocket(ipAddress) {
     socket = new WebSocket(ipAddress);
     socket.addEventListener('message', function (event) {
         let newProcessState = event.data;
+        console.log(newProcessState);
         dispatch(setProcessState(newProcessState));
     });
   }

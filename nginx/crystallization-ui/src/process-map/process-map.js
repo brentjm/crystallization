@@ -44,7 +44,7 @@ const hardwareGroups = {
 };
 
 const PVs = {
-  "TITLE": "EXPN_TXT",
+  "CRYSTALLIZER:TITLE": "EXPN_TXT",
   "USER": "USER_PV",
   "STATUS": "STATUS_PV",
   "TCU:1:BATH:TEMP:PV": "GROUP-1_VESSEL-1_TJ_PV",
