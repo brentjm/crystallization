@@ -1,10 +1,10 @@
 var Immutable = require('seamless-immutable').static;
 
 export const initialProcessState = {
-  "CRYSTALLIZER:EXPERIMENT:PV:": "IRAK4",
-  "CRYSTALLIZER:USER:PV": "Brent Maranzano",
-  "CRYSTALLIZER:STATUS:PV": "Running",
-  "CRYSTALLIZER:MODE:PV": "Running",
+  "metaData:EXPERIMENT:PV:": "IRAK4",
+  "metaData:USER:PV": "Brent Maranzano",
+  "metaData:STATUS:PV": "Running",
+  "metaData:MODE:PV": "Running",
   "TCU:1:BATH:TEMP:PV": "60",
   "TCU:1:SENSOR:TEMP:PV": "58",
   "TCU:2:BATH:TEMP:PV": "30",

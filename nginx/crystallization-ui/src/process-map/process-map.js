@@ -45,10 +45,10 @@ const hardwareGroups = {
 
 // Mapping between the processState tags (from controller) to tags in DOM.
 const PVs = {
-  "CRYSTALLIZER:EXPERIMENT:PV": "EXPN_TXT",
-  "CRYSTALLIZER:USER:PV": "USER_PV",
-  "CRYSTALLIZER:STATUS:PV": "STATUS_PV",
-  "CRYSTALLIZER:MODE:PV": "MODE_PV",
+  "metaData:EXPERIMENT:PV": "EXPN_TXT",
+  "metaData:USER:PV": "USER_PV",
+  "metaData:STATUS:PV": "STATUS_PV",
+  "metaData:MODE:PV": "MODE_PV",
   "TCU:1:BATH:TEMP:PV": "GROUP-1_VESSEL-1_TJ_PV",
   "TCU:1:SENSOR:TEMP:PV": "GROUP-1_VESSEL-1_TR_PV",
   "TCU:2:BATH:TEMP:PV": "GROUP-2_VESSEL-1_TJ_PV",
@@ -123,7 +123,6 @@ class ProcessMap extends Component {
 
   addEventListeners = (hardwareGroups, PVs) => {
     for (let PV in PVs) {
-      console.log(PV);
       this[PV].addEventListener('click', event => {
         let equipment = PV.split(":").slice(0, 2).join(":");
         this.handleEquipmentClick(equipment);
@@ -145,13 +144,28 @@ class ProcessMap extends Component {
     }
 		*/
     for (let PV in PVs) {
-      this[PV].textContent = this.props.processState[PV];
-    }
+      switch (PV.split(":")[0]) {
+        case "TCU":
+        case "PUMP":
+        case "PT":
+        case "IR":
+        case "FBRM":
+        case "THERMOCOUPLE":
+          this[PV].textContent = Number(this.props.processState[PV]).toFixed(1);
+          break;
+        case "BALANCE":
+        case "STIR":
+          this[PV].textContent = Number(this.props.processState[PV]).toFixed(0);
+          break;
+        default:
+          this[PV].textContent = this.props.processState[PV];
+      }
       /*
     if (this.props.processState["VALVES:STATE:PV"]["A"] === "CLOSED") {
       console.log(this.props.processState["VALVES:STATE:PV"]);
     }
     */
+    }
   };
 
   render() {

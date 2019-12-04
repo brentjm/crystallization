@@ -46,7 +46,7 @@ class MainMenu extends Component {
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175/grafana" target="_blank" rel="noopener noreferrer">Data Base</a></p>
+                <p><a href="http://10.131.0.175/grafana/d/H_NNUD-Wz/crystallization?orgId=1" target="_blank" rel="noopener noreferrer">Dashboard</a></p>
               </ListItemText>
             </ListItem>
             <ListItem button>
