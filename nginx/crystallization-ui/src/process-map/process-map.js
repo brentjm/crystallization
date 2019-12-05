@@ -82,7 +82,7 @@ class ProcessMap extends Component {
 
   state = {
     isDrawerOpen: false,
-    selectedEquipment: null
+    selectedParameter: "STIR:1"
   };
 
   componentDidMount = () => {
@@ -98,10 +98,12 @@ class ProcessMap extends Component {
     this.formatSVG(hardwareGroups, PVs);
   }
 
-  handleEquipmentClick = (equipment) => {
+  handleParameterClick = (parameter) => {
+    let selectedParameter = {};
+    selectedParameter[parameter] = this.props.processState[parameter];
     this.setState({
       isDrawerOpen: !this.state.isDrawerOpen,
-      selectedEquipment: equipment
+      selectedParameter: selectedParameter
     });
   }
 
@@ -124,8 +126,7 @@ class ProcessMap extends Component {
   addEventListeners = (hardwareGroups, PVs) => {
     for (let PV in PVs) {
       this[PV].addEventListener('click', event => {
-        let equipment = PV.split(":").slice(0, 2).join(":");
-        this.handleEquipmentClick(equipment);
+        this.handleParameterClick(PV);
       });
     }
   };
@@ -170,7 +171,7 @@ class ProcessMap extends Component {
 
   render() {
 
-    const { isDrawerOpen, selectedEquipment } = this.state;
+    const { isDrawerOpen, selectedParameter } = this.state;
     const { classes } = this.props;
     return (
       <div className={classes.container}>
@@ -794,8 +795,9 @@ class ProcessMap extends Component {
         </div>
         <ParameterEditor
           isDrawerOpen={isDrawerOpen}
-					selectedEquipment={selectedEquipment}
           handleDrawerExit={this.handleDrawerExit}
+					selectedParameter={selectedParameter}
+          sendWebSocketCommand={sendWebSocketCommand}
         />
 
       </div>
