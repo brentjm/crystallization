@@ -38,21 +38,25 @@ class ParameterEditor extends Component {
     newSP: null,
   };
 
-  updateSP = (e) => {
-    console.log(e);
+  updateSP = (event) => {
+    this.setState({
+      newSP: event.target.value
+    });
   }
 
-  onSubmit = () => {
-    console.log("submit");
-    //{sendWebSocketCommand({
-    //           "equipment": equipment,
-    //           "command": command
-    //         })}}
+  onSubmit = (event, equipment, command) => {
+    //console.log(equipment);
+    //console.log(this.state["newSP"]);
+    this.props.sendWebSocketCommand({
+      "equipment": equipment,
+      "command": command,
+      "value": this.state["newSP"]
+    })
   };
 
   render() {
     const { classes } = this.props;
-    const { isDrawerOpen, selectedParameter, handleDrawerExit, sendWebSocketCommand } = this.props;
+    const { isDrawerOpen, selectedParameter, handleDrawerExit } = this.props;
     const equipment = Object.keys(selectedParameter)[0].split(":").slice(0, 2).join(":");
     const command = Object.keys(selectedParameter)[0].split(":").slice(2, -1).join(":") + ":SP";
 
@@ -85,7 +89,7 @@ class ParameterEditor extends Component {
             </Button>
             <Button variant="contained" color="primary" className={classes.okButton} 
               aria-label="set new SP" 
-              onClick={this.onSubmit}
+              onClick={(event)=>this.onSubmit(event, equipment, command)}
             >
               OK
             </Button>
