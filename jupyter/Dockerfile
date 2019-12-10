@@ -9,7 +9,8 @@ RUN apt-get update \
         libfreetype6-dev \
     && apt-get clean
 
-RUN pip install jupyter websocket numpy matplotlib json \
+RUN pip install --upgrade pip
+RUN pip install jupyter websocket numpy matplotlib psycopg2 influxdb \
     && useradd -ms /bin/bash brent \
     && mkdir /home/brent/.jupyter \
     && mkdir /home/brent/calculations

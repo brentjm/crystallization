@@ -62,30 +62,30 @@ services:
     networks:
       - app      
     ports:
-        - "1880:1880"
+      - "1880:1880"
     depends_on:
       - mosquitto
       - postgres
       - influx
     restart: unless-stopped
 
-#  node-red-user:
-#    build: ./node-red-user
-#    image: node-red-user-custom
-#    container_name: crystallization_node-red_user
-#    volumes:
-#      - type: volume
-#        source: node-red-user-data
-#        target: /data
-#    networks:
-#      - app      
-#    ports:
-#        - "1880:1880"
-#    depends_on:
-#      - mosquitto
-#      - postgres
-#      - influx
-#    restart: unless-stopped
+  node-red-user:
+    build: ./node-red-user
+    image: node-red-user-custom
+    container_name: crystallization_node-red_user
+    volumes:
+      - type: volume
+        source: node-red-user-data
+        target: /data
+    networks:
+      - app      
+    ports:
+        - "1881:1880"
+    depends_on:
+      - mosquitto
+      - postgres
+      - influx
+    restart: unless-stopped
 
   grafana:
     build: ./grafana
