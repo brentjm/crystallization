@@ -43,46 +43,47 @@ const hardwareGroups = {
   "PRODUCT_LNE": ["GROUP-SEP_LINE-1"],
 };
 
-// Mapping between the processState tags (from controller) to tags in DOM.
+// Define the svg elements. Object key is the svgId
+// and the array is ["equipment", "command"].
 const PVs = {
-  "metaData:EXPERIMENT:PV": "EXPN_TXT",
-  "metaData:USER:PV": "USER_PV",
-  "metaData:STATUS:PV": "STATUS_PV",
-  "metaData:MODE:PV": "MODE_PV",
-  "TCU:1:BATH:TEMP:PV": "GROUP-1_VESSEL-1_TJ_PV",
-  "TCU:1:SENSOR:TEMP:PV": "GROUP-1_VESSEL-1_TR_PV",
-  "TCU:2:BATH:TEMP:PV": "GROUP-2_VESSEL-1_TJ_PV",
-  "TCU:2:SENSOR:TEMP:PV": "GROUP-2_VESSEL-1_TR_PV",
-  "TCU:3:BATH:TEMP:PV": "GROUP-3_VESSEL-1_TJ_PV",
-  "TCU:3:SENSOR:TEMP:PV": "GROUP-3_VESSEL-1_TR_PV",
-  "STIR:1:SPEED:PV": "GROUP-1_STR-1_PV",
-  "STIR:2:SPEED:PV": "GROUP-2_STR-1_PV",
-  "STIR:3:SPEED:PV": "GROUP-3_STR-1_PV",
-  "PUMP:1:RATE:PV": "GROUP-1_PUMP-1_PV",
-  "PUMP:2:RATE:PV": "GROUP-2_PUMP-1_PV",
-  "PUMP:3:RATE:PV": "GROUP-3_PUMP-1_PV",
-  "PUMP:FEED:RATE:PV": "GROUP-3_PUMP-1_PV-0",
-  "BALANCE:PRODUCT:MASS:PV": "GROUP-FEED_BALANCE-1_PV-7-6",
-  "BALANCE:FEED:MASS:PV": "GROUP-FEED_BALANCE-1_PV",
-  "BALANCE:ANTISOLVENT:MASS:PV": "GROUP-FEED_BALANCE-1_PV-7",
-  "IR:1:CONCENTRATION:PV": "GROUP-1_VESSEL-1_CONC_PV",
-  "IR:2:CONCENTRATION:PV": "GROUP-2_VESSEL-1_CONC_PV",
-  "IR:3:CONCENTRATION:PV": "GROUP-3_VESSEL-1_CONC_PV",
-  "FBRM:1:D50:PV": "GROUP-1_VESSEL-1_D50_PV",
-  "FBRM:2:D50:PV": "GROUP-2_VESSEL-1_D50_PV",
-  "FBRM:3:D50:PV": "GROUP-3_VESSEL-1_D50_PV",
-  "FBRM:1:D90:PV": "GROUP-1_VESSEL-1_D90_PV",
-  "FBRM:2:D90:PV": "GROUP-2_VESSEL-1_D90_PV",
-  "FBRM:3:D90:PV": "GROUP-3_VESSEL-1_D90_PV",
-  "THERMOCOUPLE:FEED:TEMP:PV": "GROUP-FEED_TEMP-1_PV",
-  "PT:SEPARATOR:PRESSURE:PV": "GROUP-SEP_PRES-1_PV",
+  "EXPN_TXT": ["metaData", "EXPERIMENT:PV"],
+  "USER_PV": ["metaData", "USER:PV"],
+  "STATUS_PV": ["metaData", "STATUS:PV"],
+  "MODE_PV": ["metaData", "MODE:PV"],
+  "GROUP-1_VESSEL-1_TJ_PV": ["TCU:1", "BATH:TEMP:PV"],
+  "GROUP-1_VESSEL-1_TR_PV": ["TCU:1", "SENSOR:TEMP:PV"],
+  "GROUP-2_VESSEL-1_TJ_PV": ["TCU:2", "BATH:TEMP:PV"],
+  "GROUP-2_VESSEL-1_TR_PV": ["TCU:2", "SENSOR:TEMP:PV"],
+  "GROUP-3_VESSEL-1_TJ_PV": ["TCU:3", "BATH:TEMP:PV"],
+  "GROUP-3_VESSEL-1_TR_PV": ["TCU:3", "SENSOR:TEMP:PV"],
+  "GROUP-1_STR-1_PV": ["STIR:1", "SPEED:PV"],
+  "GROUP-2_STR-1_PV": ["STIR:2", "SPEED:PV"],
+  "GROUP-3_STR-1_PV": ["STIR:3", "SPEED:PV"],
+  "GROUP-1_PUMP-1_PV": ["PUMP:1", "RATE:PV"],
+  "GROUP-2_PUMP-1_PV": ["PUMP:2", "RATE:PV"],
+  "GROUP-3_PUMP-1_PV": ["PUMP:3", "RATE:PV"],
+  "GROUP-3_PUMP-1_PV-0": ["TCU:1", "BATH:TEMP:PV"],
+  "GROUP-FEED_BALANCE-1_PV-7-6": ["BALANCE:FEED", "MASS:PV"],
+  "GROUP-FEED_BALANCE-1_PV": ["BALANCE:ANTISOLVENT", "MASS:PV"],
+  "GROUP-FEED_BALANCE-1_PV-7": ["BALANCE:PRODUCT", "MASS:PV"],
+  "GROUP-1_VESSEL-1_CONC_PV": ["IR:1", "CONCENTRATION:PV"],
+  "GROUP-2_VESSEL-1_CONC_PV": ["IR:2", "CONCENTRATION:PV"],
+  "GROUP-3_VESSEL-1_CONC_PV": ["IR:3", "CONCENTRATION:PV"],
+  "GROUP-1_VESSEL-1_D50_PV": ["FBRM:1", "D50:PV"],
+  "GROUP-2_VESSEL-1_D50_PV": ["FBRM:2", "D50:PV"],
+  "GROUP-3_VESSEL-1_D50_PV": ["FBRM:3", "D50:PV"],
+  "GROUP-1_VESSEL-1_D90_PV": ["FBRM:1", "D90:PV"],
+  "GROUP-2_VESSEL-1_D90_PV": ["FBRM:2", "D90:PV"],
+  "GROUP-3_VESSEL-1_D90_PV": ["FBRM:3", "D90:PV"],
+  "GROUP-SEP_PRES-1_PV": ["PT:SEPARATOR", "PRESSURE:PV"],
+  "GROUP-FEED_TEMP-1_PV": ["THERMOCOUPLE:FEED", "TEMP:PV"]
 };
   
 class ProcessMap extends Component {
 
   state = {
     isDrawerOpen: false,
-    selectedParameter: "STIR:1"
+    selectedParameter: ["STIR:1", "SPEED:PV"]
   };
 
   componentDidMount = () => {
@@ -99,11 +100,9 @@ class ProcessMap extends Component {
   }
 
   handleParameterClick = (parameter) => {
-    let selectedParameter = {};
-    selectedParameter[parameter] = this.props.processState[parameter];
     this.setState({
       isDrawerOpen: !this.state.isDrawerOpen,
-      selectedParameter: selectedParameter
+      selectedParameter: parameter,
     });
   }
 
@@ -118,17 +117,17 @@ class ProcessMap extends Component {
     for (let group in hardwareGroups) {
       this[group] = svg.getElementById(hardwareGroups[group])
     }
-    for (let PV in PVs) {
-      this[PV] = svg.getElementById(PVs[PV]);
-    }
+    Object.keys(PVs).forEach((PV, index) => {
+      this[PV] = svg.getElementById(PV);
+    });
   };
 
   addEventListeners = (hardwareGroups, PVs) => {
-    for (let PV in PVs) {
+    Object.keys(PVs).forEach((PV, index) => {
       this[PV].addEventListener('click', event => {
-        this.handleParameterClick(PV);
+        this.handleParameterClick(PVs[PV]);
       });
-    }
+    });
   };
 
   formatSVG = (hardwareGroups, PVs) => {
@@ -144,29 +143,50 @@ class ProcessMap extends Component {
       });
     }
 		*/
-    for (let PV in PVs) {
-      switch (PV.split(":")[0]) {
-        case "TCU":
-        case "PUMP":
-        case "PT":
-        case "IR":
-        case "FBRM":
-        case "THERMOCOUPLE":
-          this[PV].textContent = Number(this.props.processState[PV]).toFixed(1);
+    let state = this.props.processState;
+    Object.keys(PVs).forEach((PV, index) => {
+      let equipment = PVs[PV][0];
+      let command = PVs[PV][1];
+      switch (PV) {
+        case "EXPN_TXT":
+        case "USER_PV":
+        case "STATUS_PV":
+        case "MODE_PV":
+          this[PV].textContent = state[equipment][command];
           break;
-        case "BALANCE":
-        case "STIR":
-          this[PV].textContent = Number(this.props.processState[PV]).toFixed(0);
+        case "GROUP-1_VESSEL-1_TJ_PV":
+        case "GROUP-2_VESSEL-1_TJ_PV":
+        case "GROUP-3_VESSEL-1_TJ_PV":
+        case "GROUP-1_VESSEL-1_TR_PV":
+        case "GROUP-2_VESSEL-1_TR_PV":
+        case "GROUP-3_VESSEL-1_TR_PV":
+        case "GROUP-1_PUMP-1_PV":
+        case "GROUP-2_PUMP-1_PV":
+        case "GROUP-3_PUMP-1_PV":
+        case "GROUP-1_VESSEL-1_CONC_PV":
+        case "GROUP-2_VESSEL-1_CONC_PV":
+        case "GROUP-3_VESSEL-1_CONC_PV":
+        case "GROUP-FEED_TEMP-1_PV":
+        case "GROUP-SEP_PRES-1_PV":
+          this[PV].textContent = state[equipment][command].toFixed(1);
+          break;
+        case "GROUP-1_STR-1_PV":
+        case "GROUP-2_STR-1_PV":
+        case "GROUP-3_STR-1_PV":
+        case "GROUP-FEED_BALANCE-1_PV-7-6":
+        case "GROUP-FEED_BALANCE-1_PV":
+        case "GROUP-FEED_BALANCE-1_PV-7":
+        case "GROUP-1_VESSEL-1_D50_PV":
+        case "GROUP-2_VESSEL-1_D50_PV":
+        case "GROUP-3_VESSEL-1_D50_PV":
+        case "GROUP-1_VESSEL-1_D90_PV":
+        case "GROUP-2_VESSEL-1_D90_PV":
+        case "GROUP-3_VESSEL-1_D90_PV":
+          this[PV].textContent = state[equipment][command].toFixed(0);
           break;
         default:
-          this[PV].textContent = this.props.processState[PV];
       }
-      /*
-    if (this.props.processState["VALVES:STATE:PV"]["A"] === "CLOSED") {
-      console.log(this.props.processState["VALVES:STATE:PV"]);
-    }
-    */
-    }
+    });
   };
 
   render() {

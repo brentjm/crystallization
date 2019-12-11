@@ -51,12 +51,12 @@ class MainMenu extends Component {
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175:8889" target="_blank" rel="noopener noreferrer">Model Notebook</a></p>
+                <p><a href="http://10.131.0.175:8889" target="_blank" rel="noopener noreferrer">Notebooks</a></p>
               </ListItemText>
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175/nodered" target="_blank" rel="noopener noreferrer">Automation</a></p>
+                <p><a href="http://10.131.0.175:1881" target="_blank" rel="noopener noreferrer">Automation</a></p>
               </ListItemText>
             </ListItem>
           </List>

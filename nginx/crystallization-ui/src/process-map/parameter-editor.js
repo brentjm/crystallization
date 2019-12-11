@@ -57,8 +57,8 @@ class ParameterEditor extends Component {
   render() {
     const { classes } = this.props;
     const { isDrawerOpen, selectedParameter, handleDrawerExit } = this.props;
-    const equipment = Object.keys(selectedParameter)[0].split(":").slice(0, 2).join(":");
-    const command = Object.keys(selectedParameter)[0].split(":").slice(2, -1).join(":") + ":SP";
+    const equipment = selectedParameter[0];
+    const command = selectedParameter[1].split(":")[0] + ":SP";
 
     return (
       <Drawer open={isDrawerOpen} onClose={handleDrawerExit} anchor="right">

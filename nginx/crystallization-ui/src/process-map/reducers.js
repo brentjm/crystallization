@@ -1,5 +1,83 @@
 var Immutable = require('seamless-immutable').static;
 
+let metaData =  {
+    "USER:SP": "junk",
+    "STATUS:SP": "Running",
+    "EXPERIMENT:SP": "Crystallization",
+    "MODE:SP": "SIMULATION"
+};
+
+let TCU = {
+    "POWER:PV": "ON",           
+    "MODE:PV": "SENSOR",        
+    "BATH:TEMP:PV": 22,
+    "SENSOR:TEMP:PV": 40,
+};
+
+let STIR = {
+    "STATUS:PV": "STOPPED",
+    "SPEED:PV": 0
+};
+
+let PUMP = {
+    "STATUS:PV": "STOPPED",
+    "RATE:PV": 0
+};
+
+let BALANCE = {
+    "MASS:PV": 200,
+};
+
+let IR = {
+    "CONCENTRATION:PV": 0,
+    "SPECTRA:PV": [0, 0, 0]
+};
+
+let FBRM = {
+    "D50:PV": 0,
+    "D90:PV": 0,
+    "HISTOGRAM:PV": [0, 0, 0]
+};
+
+let THERMOCOUPLE = {
+    "TEMP:PV": 22
+};
+
+let PT = {
+    "PRESSURE:PV": 0.8
+};
+
+let VALVES = {
+    "STATE:PV": {"A": "CLOSED", "B": "CLOSED", "C": "CLOSED", "D": "CLOSED", "E": "CLOSED"}
+}
+
+let initialProcessState = Immutable({
+    "metaData": Object.assign({}, metaData),
+    "TCU:1": Object.assign({}, TCU),
+    "TCU:2": Object.assign({}, TCU),
+    "TCU:3": Object.assign({}, TCU),
+    "STIR:1": Object.assign({}, STIR),
+    "STIR:2": Object.assign({}, STIR),
+    "STIR:3": Object.assign({}, STIR),
+    "PUMP:1": Object.assign({}, PUMP),
+    "PUMP:2": Object.assign({}, PUMP),
+    "PUMP:3": Object.assign({}, PUMP),
+    "PUMP:FEED": Object.assign({}, PUMP),
+    "BALANCE:FEED": Object.assign({}, BALANCE),
+    "BALANCE:ANTISOLVENT": Object.assign({}, BALANCE),
+    "BALANCE:PRODUCT": Object.assign({}, BALANCE),
+    "IR:1": Object.assign({}, IR),
+    "IR:2": Object.assign({}, IR),
+    "IR:3": Object.assign({}, IR),
+    "FBRM:1": Object.assign({}, FBRM),
+    "FBRM:2": Object.assign({}, FBRM),
+    "FBRM:3": Object.assign({}, FBRM),
+    "THERMOCOUPLE:FEED": Object.assign({}, THERMOCOUPLE),
+    "PT:SEPARATOR": Object.assign({}, PT),
+    "VALVES": Object.assign({}, VALVES),
+});
+
+/*
 export const initialProcessState = {
   "metaData:EXPERIMENT:PV:": "IRAK4",
   "metaData:USER:PV": "Brent Maranzano",
@@ -34,17 +112,19 @@ export const initialProcessState = {
   "PT:SEPARATOR:PRESSURE:PV": "0.8",
   "VALVES:STATE:PV": {"A": "CLOSED", "B": "CLOSED", "C": "CLOSED", "D": "CLOSED", "E": "CLOSED"}
 };
+*/
 
 export const processState = (state = initialProcessState, action) => {
   switch (action.type) {
     case "SET_PROCESS_STATE": {
-      let { processState } = action;
-      processState = JSON.parse(processState);
-      let item = processState["equipment"]+":"+processState["command"];
-      let value = processState["value"];
-      let update = {};
-      update[item] = String(value);
-      return Immutable.merge(state, update);
+      let { message } = action;
+      message = JSON.parse(message);
+      let newState = {};
+      newState = Immutable.setIn(state, [message["equipment"], message["command"]], message["value"]);
+      if (message.equipment === "TCU:1") {
+        //console.log(message.value);
+      }
+      return newState;
     }
     default:
       return state;

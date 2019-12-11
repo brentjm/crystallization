@@ -1,8 +1,8 @@
 var socket = null;
 
-export const setProcessState = (processState) => ({
+export const setProcessState = (message) => ({
   type: "SET_PROCESS_STATE",
-  processState
+  message
 });
 
 export function connectWebSocket(ipAddress) {
