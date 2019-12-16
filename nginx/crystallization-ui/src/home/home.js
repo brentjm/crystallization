@@ -58,7 +58,7 @@ class Home extends Component {
                   for the process equipment. The process map provides the easiest method
                   for a new user to visualize the current process conditions and enter new
                   conditions.
-                  <img src={ProcessMapImage} alt="process map image" className={classes.image} />
+                  <img src={ProcessMapImage} alt="process map" className={classes.image} />
                 </ListItemText>
               </ListItem>
               <ListItem button>
@@ -70,8 +70,8 @@ class Home extends Component {
                   custom plots, which can be shared with other users through web links. The
                   dashboard also provides a set of mathematical tools, such as averaging
                   over time, taking derivatives, and can be extended to read from other database
-                  sources.
-                  <img src={GrafanaDashboardImage} alt="Grafana dashboard image" className={classes.image} />
+                  sources. (user: grafana  password: juyfteBR6BC5L5oqwq4m)
+                  <img src={GrafanaDashboardImage} alt="Grafana dashboard" className={classes.image} />
                 </ListItemText>
               </ListItem>
               <ListItem button>
@@ -82,8 +82,8 @@ class Home extends Component {
                   Python, Octave, R, Matlab, ...) to read data directly from
                   the process or the databases; perform high level mathematical
                   analysis, and update equipment setpoints from advanced
-                  control algorithms.
-                  <img src={JupyterImage} alt="Jupyter image" className={classes.image} />
+                  control algorithms. (password: jxjkS9xK9sV62kCRkBGD)
+                  <img src={JupyterImage} alt="Jupyter" className={classes.image} />
                 </ListItemText>
               </ListItem>
               <ListItem button>
@@ -100,8 +100,8 @@ class Home extends Component {
                   connections have been defined, such as connecting to new
                   pieces of equipment to the module with no programming (to
                   understand the hardware aspect of equipment connectivity,
-                  please see the hardware section).
-                  <img src={NodeRedImage} alt="Node Red image" className={classes.image} />
+                  please see the hardware section). (user: admin    password: Wn3a8HV2cRTPTWynXUYN)
+                  <img src={NodeRedImage} alt="Node Red" className={classes.image} />
                 </ListItemText>
               </ListItem>
             </List>

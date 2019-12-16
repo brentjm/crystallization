@@ -17,6 +17,7 @@ RUN pip install jupyter websocket numpy matplotlib psycopg2 influxdb \
 
 COPY jupyter_notebook_config.py /home/brent/.jupyter/.
 COPY Model.ipynb /home/brent/calculations/.
+COPY Database.ipynb /home/brent/calculations/.
 RUN chown -R brent:brent /home/brent/.jupyter \
     && chmod 777 /home/brent/calculations
 
