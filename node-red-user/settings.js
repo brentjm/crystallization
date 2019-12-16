@@ -124,7 +124,7 @@ module.exports = {
         users: [
           {
             username: "admin",
-            password: "$2b$08$25OCL1zTZOXW5aOIYrYdxOcBs6YQ0SgY4QzlkoqfdDZamOmVVq6h6",
+            password: "$2b$08$SLCOQRPJUXaBxTMT5BHpBeHjqvZJ31FUx9VUdhTOzOZKUZ.WPFeA6",
             permissions: "*"
           },
 	],
