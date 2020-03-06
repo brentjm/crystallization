@@ -64,7 +64,7 @@ class Home extends Component {
               <ListItem button>
                 <ListItemText>
                   An interactive 
-                  <a href="http://10.131.0.175/grafana/d/H_NNUD-Wz/crystallization?orgId=1" target="_blank" rel="noopener noreferrer"> dashboard </a>
+                  <a href="http://10.131.72.83/grafana/d/H_NNUD-Wz/crystallization?orgId=1" target="_blank" rel="noopener noreferrer"> dashboard </a>
                   that provides realtime plots of all data recorded into a time series database
                   (InfluxDB). Furthemore, the dashboard allows each user to define and save
                   custom plots, which can be shared with other users through web links. The
@@ -76,7 +76,7 @@ class Home extends Component {
               </ListItem>
               <ListItem button>
                 <ListItemText>
-                  A <a href="http://10.131.0.175:8889" target="_blank" rel="noopener noreferrer"> scripting notebook service </a>
+                  A <a href="http://10.131.72.83:8889" target="_blank" rel="noopener noreferrer"> scripting notebook service </a>
                   (JupyterLab) that provides users owned (and sharable)
                   notebooks that can be programmed in various languages (e.g.
                   Python, Octave, R, Matlab, ...) to read data directly from
@@ -89,7 +89,7 @@ class Home extends Component {
               <ListItem button>
                 <ListItemText>
                   A 
-                  <a href="http://10.131.0.175:1881" target="_blank" rel="noopener noreferrer"> "drag-n-drop" interface </a>
+                  <a href="http://10.131.72.83:1881" target="_blank" rel="noopener noreferrer"> "drag-n-drop" interface </a>
                   that provides automation extensions, such as building
                   sequences, delayed timing, process notifications (e.g.
                   email, text message, or phone call alerts of process

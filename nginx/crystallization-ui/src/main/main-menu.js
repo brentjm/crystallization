@@ -46,17 +46,17 @@ class MainMenu extends Component {
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175/grafana/d/H_NNUD-Wz/crystallization?orgId=1" target="_blank" rel="noopener noreferrer">Dashboard</a></p>
+                <p><a href="http://10.131.72.83/grafana/d/H_NNUD-Wz/crystallization?orgId=1" target="_blank" rel="noopener noreferrer">Dashboard</a></p>
               </ListItemText>
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175:8889" target="_blank" rel="noopener noreferrer">Notebooks</a></p>
+                <p><a href="http://10.131.72.83:8889" target="_blank" rel="noopener noreferrer">Notebooks</a></p>
               </ListItemText>
             </ListItem>
             <ListItem button>
               <ListItemText>
-                <p><a href="http://10.131.0.175:1881" target="_blank" rel="noopener noreferrer">Automation</a></p>
+                <p><a href="http://10.131.72.83:1881" target="_blank" rel="noopener noreferrer">Automation</a></p>
               </ListItemText>
             </ListItem>
           </List>
